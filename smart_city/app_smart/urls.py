@@ -1,11 +1,13 @@
 from django.urls import path, include
 from . import views
 from app_smart.api.viewsets import CreateUserAPIViewSet, SensorViewSet
+from .views import UploadCSVViewSet
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
 router.register(r'sensors', SensorViewSet)
+router.register(r'upload_csv', UploadCSVViewSet, basename='upload_csv')
 
 urlpatterns = [
     path('', views.open_index, name="open_index"),

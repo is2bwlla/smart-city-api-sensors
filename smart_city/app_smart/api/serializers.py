@@ -1,5 +1,5 @@
 from django.contrib.auth.models import User
-from rest_framework.serializers import ModelSerializer, CharField
+from rest_framework.serializers import ModelSerializer, CharField, FileField
 from django.contrib.auth.hashers import make_password
 from app_smart.models import Sensor
 
@@ -20,3 +20,6 @@ class SensorSerializer(ModelSerializer):
     class Meta: 
         model = Sensor
         fields = '__all__'              # Isso serializa todos os campos do modelo sensor
+        
+class CSVUploadSerializer(ModelSerializer):
+    file = FileField()

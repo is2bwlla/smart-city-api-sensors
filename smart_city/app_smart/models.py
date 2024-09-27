@@ -2,10 +2,10 @@ from django.db import models
 
 class Sensor(models.Model):
     SENSOR_CHOICES = [
-        ('Temperature', 'Temperature'),                 # Temperatura
-        ('Humidity', 'Humidity'),                       # Umidade
-        ('Counter', 'Counter'),                         # Contador
-        ('Luminosity', 'Luminosity'),                   # Luminosidade
+        ('Temperatura', 'Temperatura'),                 # Temperatura
+        ('Umidade', 'Umidade'),                       # Umidade
+        ('Contador', 'Contador'),                         # Contador
+        ('Luminosidade', 'Luminosidade'),                   # Luminosidade
     ]
     
     type = models.CharField(max_length=50, choices=SENSOR_CHOICES)
@@ -20,4 +20,6 @@ class Sensor(models.Model):
     
     def __str__(self):
         return f'{self.type} - {self.location}'
+    
+
     
