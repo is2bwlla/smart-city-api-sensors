@@ -1,0 +1,725 @@
+INFO 2024-10-03 08:02:05,880 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:03:02,705 autoreload Watching for file changes with StatReloader
+ERROR 2024-10-03 08:06:17,364 log Internal Server Error: /api/upload_csv/
+Traceback (most recent call last):
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: table app_smart_sensor has no column named tipo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py", line 44, in create
+    Sensor.objects.create(
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: table app_smart_sensor has no column named tipo
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\47955124855\Desktop\smart_city_django\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py", line 62, in create
+    Logger.error(f"Erro geral no processamento do CSV: {e}")
+TypeError: Logger.error() missing 1 required positional argument: 'msg'
+INFO 2024-10-03 08:07:15,557 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 08:07:16,418 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:07:20,883 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 08:07:21,721 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:08:06,468 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 08:08:07,316 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:08:09,682 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 08:08:10,600 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:08:17,226 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 08:08:18,190 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:08:37,711 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 08:08:38,558 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:08:43,004 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 08:08:43,864 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:08:55,668 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 08:08:56,502 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:09:07,311 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 08:09:08,203 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:09:18,959 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 08:09:19,781 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:09:26,309 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 08:09:27,204 autoreload Watching for file changes with StatReloader
+ERROR 2024-10-03 08:09:34,144 views Erro geral no processamento do CSV: table app_smart_sensor has no column named tipo
+WARNING 2024-10-03 08:09:34,174 log Bad Request: /api/upload_csv/
+INFO 2024-10-03 08:10:38,421 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\filters.py changed, reloading.
+INFO 2024-10-03 08:10:39,238 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:10:49,024 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\filters.py changed, reloading.
+INFO 2024-10-03 08:10:49,867 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:10:55,340 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\filters.py changed, reloading.
+INFO 2024-10-03 08:10:56,218 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:12:18,504 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:13:15,594 autoreload Watching for file changes with StatReloader
+ERROR 2024-10-03 08:13:29,934 views Erro geral no processamento do CSV: table app_smart_sensor has no column named tipo
+WARNING 2024-10-03 08:13:29,968 log Bad Request: /api/upload_csv/
+INFO 2024-10-03 08:14:13,578 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 08:14:14,427 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:14:16,688 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 08:14:17,588 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:14:19,851 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 08:14:20,735 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:15:31,664 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:23:35,516 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\filters.py changed, reloading.
+INFO 2024-10-03 08:23:36,636 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:25:26,382 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\filters.py changed, reloading.
+INFO 2024-10-03 08:25:27,242 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:25:31,673 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\filters.py changed, reloading.
+INFO 2024-10-03 08:25:32,478 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:26:18,111 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\filters.py changed, reloading.
+INFO 2024-10-03 08:26:18,922 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:26:25,127 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\filters.py changed, reloading.
+INFO 2024-10-03 08:26:25,936 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:26:32,453 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\filters.py changed, reloading.
+INFO 2024-10-03 08:26:33,246 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:26:37,311 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\filters.py changed, reloading.
+INFO 2024-10-03 08:26:38,144 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:26:42,184 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\filters.py changed, reloading.
+INFO 2024-10-03 08:26:43,033 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:26:46,012 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\filters.py changed, reloading.
+INFO 2024-10-03 08:26:46,860 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:26:48,777 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\filters.py changed, reloading.
+INFO 2024-10-03 08:26:49,570 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:26:52,849 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\filters.py changed, reloading.
+INFO 2024-10-03 08:26:53,678 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:26:55,602 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\filters.py changed, reloading.
+INFO 2024-10-03 08:26:56,443 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:41:07,635 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 08:41:08,560 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:41:21,238 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 08:41:22,053 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:45:32,510 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\filters.py changed, reloading.
+INFO 2024-10-03 08:45:33,340 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:45:39,603 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\filters.py changed, reloading.
+INFO 2024-10-03 08:45:40,414 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:45:42,317 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\filters.py changed, reloading.
+INFO 2024-10-03 08:45:43,148 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:45:48,274 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\filters.py changed, reloading.
+INFO 2024-10-03 08:45:49,173 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:45:51,150 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\filters.py changed, reloading.
+INFO 2024-10-03 08:45:51,997 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:45:59,297 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\filters.py changed, reloading.
+INFO 2024-10-03 08:46:00,168 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 08:46:04,280 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\filters.py changed, reloading.
+INFO 2024-10-03 08:46:05,120 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:08:06,585 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:09:07,069 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-03 09:09:07,940 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-03 09:11:38,801 log Unauthorized: /api/sensors/
+INFO 2024-10-03 09:47:21,477 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:47:22,289 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:47:34,801 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:47:35,522 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:47:45,988 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:47:46,701 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:47:52,059 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:47:52,822 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:47:55,120 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:47:55,853 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:48:02,220 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:48:02,937 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:48:14,438 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:48:15,223 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:48:28,765 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:48:29,469 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:49:12,590 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:49:13,282 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:49:17,624 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:49:18,409 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:49:19,687 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:49:20,441 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:49:22,772 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:49:23,606 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:49:24,882 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:49:25,639 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:49:26,922 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:49:27,756 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:49:32,093 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:49:32,900 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:49:38,395 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:49:39,217 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:49:42,536 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:49:43,334 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:49:45,563 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:49:46,419 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:49:51,836 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:49:52,655 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:50:03,509 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:50:04,332 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:50:06,579 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:50:07,384 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:50:12,830 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:50:13,663 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:50:17,995 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:50:18,820 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:50:21,098 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:50:21,910 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:50:26,255 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:50:27,087 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:50:33,575 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:50:34,405 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:50:36,651 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:50:37,469 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:50:42,946 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:50:43,699 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:50:47,012 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:50:47,719 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:50:50,006 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:50:50,883 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:50:53,169 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:50:53,985 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:50:58,337 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:50:59,088 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:51:02,417 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:51:03,148 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:51:14,635 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:51:15,185 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:51:20,328 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:51:21,155 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:51:23,438 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:51:24,255 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:51:26,454 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:51:27,303 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:51:30,624 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:51:31,432 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:51:35,767 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:51:36,554 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:51:38,830 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:51:39,688 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:51:41,900 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:51:42,755 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:51:53,592 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:51:54,482 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:51:56,705 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:51:57,572 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:51:59,805 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:52:00,609 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:52:04,955 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:52:05,702 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:52:09,014 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:52:09,750 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:52:11,043 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:52:11,829 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:52:13,088 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:52:13,809 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:52:23,279 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:52:24,031 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:52:28,375 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:52:29,165 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:52:35,741 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:52:36,607 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:52:44,017 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:52:44,840 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:52:47,079 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:52:47,917 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:52:52,261 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:52:53,081 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:52:55,359 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:52:56,174 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:53:04,833 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:53:05,666 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:53:11,136 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:53:11,964 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:53:20,717 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:53:21,521 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:53:23,829 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:53:24,578 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:53:27,880 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:53:28,682 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:53:33,076 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:53:33,869 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:53:36,160 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:53:36,951 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:53:41,350 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:53:42,145 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:53:43,421 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:53:44,169 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:53:50,555 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:53:51,348 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:53:53,580 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:53:54,506 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:53:59,971 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:54:00,832 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:54:04,212 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:54:05,084 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:54:07,300 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:54:08,124 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:54:10,346 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:54:11,215 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:54:14,537 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:54:15,379 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:54:16,662 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:54:17,426 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:54:28,222 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:54:29,021 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:54:34,499 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:54:35,345 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:54:37,604 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:54:38,480 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:54:39,762 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:54:40,529 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:54:41,799 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:54:42,569 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:54:45,905 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:54:46,606 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:54:51,959 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:54:52,753 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:55:00,154 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:55:00,923 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:55:06,345 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:55:07,172 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:55:17,629 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:55:18,427 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:55:20,721 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:55:21,470 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 09:55:23,757 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 09:55:24,515 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:18:45,796 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:18:46,598 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:18:51,059 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:18:51,866 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:18:54,110 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:18:55,005 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:18:57,235 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:18:58,120 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:19:00,322 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:19:01,179 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:19:10,858 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:19:11,663 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:19:15,002 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:19:15,813 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:19:18,022 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:19:18,840 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:19:24,281 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:19:26,042 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:19:28,358 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:19:29,153 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:19:31,480 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:19:32,435 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:19:36,991 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:19:37,793 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:19:39,064 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:19:39,886 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:19:42,170 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:19:42,979 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:19:48,460 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:19:49,065 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:19:52,074 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:19:52,960 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:19:58,468 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:19:59,221 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:20:05,611 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:20:06,419 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:20:08,628 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:20:09,479 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:20:20,276 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:20:21,118 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:20:25,530 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:20:26,349 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:20:28,657 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:20:29,420 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:20:34,786 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:20:35,517 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:20:36,802 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:20:37,550 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:20:40,890 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:20:41,613 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:20:43,918 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:20:44,677 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:20:45,962 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:20:46,731 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:20:51,069 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:20:51,779 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:20:56,116 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:20:56,895 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:21:01,232 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:21:02,015 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:21:27,709 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:21:28,524 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:21:33,870 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:21:34,665 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:21:35,939 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:21:36,693 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:21:59,184 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:22:00,006 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:22:44,042 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:22:44,931 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:22:52,583 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:22:53,435 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:22:57,948 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:22:58,758 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:23:00,028 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:23:00,782 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:23:05,114 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:23:05,986 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:23:08,276 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:23:09,060 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:23:12,392 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:23:13,200 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:23:19,591 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:23:20,447 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:23:28,077 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:23:28,891 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:23:30,170 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:23:30,960 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:23:37,456 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:23:38,328 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:23:40,632 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:23:41,468 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:23:42,729 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 10:23:43,487 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:27:51,127 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-03 10:28:04,175 log Unauthorized: /api/create_user/
+WARNING 2024-10-03 10:31:14,853 log Unauthorized: /api/create_user/
+INFO 2024-10-03 10:32:22,929 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\viewsets.py changed, reloading.
+INFO 2024-10-03 10:32:23,793 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:33:18,764 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-03 10:33:28,140 log Unauthorized: /api/create_user/
+INFO 2024-10-03 10:39:20,972 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\viewsets.py changed, reloading.
+INFO 2024-10-03 10:39:21,845 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-03 10:39:41,214 log Bad Request: /api/create_user/
+INFO 2024-10-03 10:40:53,577 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\viewsets.py changed, reloading.
+INFO 2024-10-03 10:40:54,441 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:41:04,930 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\viewsets.py changed, reloading.
+INFO 2024-10-03 10:41:05,774 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:41:10,917 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\viewsets.py changed, reloading.
+INFO 2024-10-03 10:41:11,832 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:41:54,767 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\viewsets.py changed, reloading.
+INFO 2024-10-03 10:41:55,597 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:42:06,117 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-10-03 10:42:06,936 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:42:33,951 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-10-03 10:42:35,747 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-03 10:44:38,196 log Bad Request: /api/create_user/
+WARNING 2024-10-03 10:46:32,486 log Bad Request: /api/create_user/
+INFO 2024-10-03 10:47:51,238 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\smart_city\settings.py changed, reloading.
+INFO 2024-10-03 10:47:52,420 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:48:36,167 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-10-03 10:48:37,002 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:48:42,510 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-10-03 10:48:43,410 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:48:46,469 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-10-03 10:48:47,317 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:48:51,360 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-10-03 10:48:52,193 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:48:54,122 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-10-03 10:48:55,004 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:48:57,992 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-10-03 10:48:58,802 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:49:02,925 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-10-03 10:49:03,783 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:49:05,711 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-10-03 10:49:06,575 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:49:12,750 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-10-03 10:49:13,601 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:49:16,643 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-10-03 10:49:17,517 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:49:19,716 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-10-03 10:49:20,566 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:49:30,359 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\viewsets.py changed, reloading.
+INFO 2024-10-03 10:49:31,215 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:49:33,466 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\viewsets.py changed, reloading.
+INFO 2024-10-03 10:49:34,283 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:49:44,717 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\viewsets.py changed, reloading.
+INFO 2024-10-03 10:49:45,539 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:49:49,619 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\viewsets.py changed, reloading.
+INFO 2024-10-03 10:49:50,462 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:49:52,439 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\viewsets.py changed, reloading.
+INFO 2024-10-03 10:49:53,287 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:49:55,243 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\viewsets.py changed, reloading.
+INFO 2024-10-03 10:49:56,069 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:49:58,001 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\viewsets.py changed, reloading.
+INFO 2024-10-03 10:49:58,866 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:50:00,800 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\viewsets.py changed, reloading.
+INFO 2024-10-03 10:50:01,714 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:50:03,656 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\viewsets.py changed, reloading.
+INFO 2024-10-03 10:50:04,503 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:50:18,168 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\viewsets.py changed, reloading.
+INFO 2024-10-03 10:50:19,000 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:50:22,361 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\viewsets.py changed, reloading.
+INFO 2024-10-03 10:50:23,217 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:50:27,300 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\viewsets.py changed, reloading.
+INFO 2024-10-03 10:50:28,167 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:50:33,299 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\viewsets.py changed, reloading.
+INFO 2024-10-03 10:50:34,196 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:50:38,634 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\viewsets.py changed, reloading.
+INFO 2024-10-03 10:50:39,465 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:50:41,470 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\api\viewsets.py changed, reloading.
+INFO 2024-10-03 10:50:42,296 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:55:08,753 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:58:36,767 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 10:58:38,447 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:58:54,743 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 10:58:55,628 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:59:21,102 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 10:59:21,901 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:59:25,322 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 10:59:26,133 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:59:29,533 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 10:59:30,324 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 10:59:53,719 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 10:59:54,542 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:00:04,307 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:00:05,116 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:00:10,603 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:00:11,423 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:00:17,970 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:00:18,787 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:01:01,678 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:01:02,499 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:01:11,165 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:01:11,967 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:01:14,312 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:01:15,144 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:01:17,394 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:01:18,261 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:01:23,758 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:01:24,628 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:01:32,277 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:01:33,146 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:01:37,612 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:01:38,438 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:01:41,745 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:01:42,617 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:01:44,910 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:01:45,793 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:01:49,070 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:01:49,890 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:01:54,277 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:01:55,149 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:01:58,531 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:01:59,356 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:02:05,857 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:02:06,728 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:02:10,061 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:02:10,860 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:02:13,136 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:02:13,931 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:02:16,157 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:02:16,994 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:02:22,406 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:02:23,259 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:02:26,543 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:02:27,421 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:02:41,398 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:02:42,244 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:02:46,734 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:02:47,560 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:02:54,126 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:02:55,030 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:02:58,458 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:02:59,285 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:03:02,590 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:03:03,416 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:03:07,796 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:03:08,608 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:03:13,022 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:03:13,867 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:03:17,243 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:03:18,068 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:03:19,341 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:03:20,193 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:03:30,972 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:03:31,817 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:03:36,273 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:03:37,082 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:03:39,406 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:03:40,165 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:03:43,541 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:03:44,423 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:03:46,628 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:03:47,518 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:03:49,729 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:03:50,640 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:03:53,991 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:03:54,906 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:04:00,793 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:04:01,656 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:04:07,675 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:04:08,491 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:04:17,574 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:04:18,393 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:04:35,589 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:04:36,422 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:04:40,876 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:04:41,670 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:04:55,717 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:04:56,622 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:04:57,922 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:04:58,749 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:05:02,143 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:05:03,075 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:05:04,358 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:05:05,179 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:05:09,572 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:05:10,390 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:05:15,906 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:05:16,714 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:05:21,105 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:05:21,922 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:05:30,558 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:05:31,388 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:05:35,755 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:05:36,605 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:05:39,871 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:05:40,740 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:05:44,040 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:05:44,914 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:05:52,544 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:05:53,356 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:05:55,698 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:05:56,463 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:06:00,906 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:06:01,737 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:06:03,995 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:06:04,813 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:06:08,209 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:06:09,082 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:06:13,514 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:06:14,319 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:06:28,317 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:06:29,167 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:06:33,585 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:06:34,387 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:06:36,659 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:06:37,462 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:06:45,057 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:06:45,836 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:06:52,367 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:06:53,154 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:07:00,842 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:07:01,646 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:07:03,911 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:07:04,743 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:08:35,835 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:08:36,721 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:09:07,452 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:09:08,285 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:09:19,204 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 11:09:20,050 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:09:23,373 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 11:09:24,271 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:09:27,586 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 11:09:28,487 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:09:30,703 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 11:09:31,534 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:13:58,431 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 11:13:59,281 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:14:01,504 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 11:14:02,400 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:14:04,709 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\models.py changed, reloading.
+INFO 2024-10-03 11:14:05,536 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:15:21,721 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:15:22,563 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:15:24,831 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:15:25,740 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:15:31,381 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:15:32,241 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:15:35,517 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:15:36,347 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:17:23,650 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-03 11:17:24,472 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:17:30,705 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-03 11:17:31,556 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:17:36,999 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-03 11:17:37,849 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:17:59,091 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-03 11:17:59,934 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:18:27,072 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:18:27,945 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:18:39,758 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:18:40,526 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:18:44,979 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:18:45,805 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:18:48,139 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:18:48,998 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:18:55,529 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-03 11:18:56,434 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:19:26,729 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-03 11:19:27,567 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:19:29,464 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-03 11:19:30,286 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:19:36,472 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-03 11:19:37,324 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:19:38,606 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-03 11:19:39,437 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:19:55,269 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-03 11:19:56,113 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:20:00,465 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-03 11:20:01,302 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:20:11,111 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-03 11:20:11,934 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:20:21,634 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-03 11:20:22,479 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:20:25,846 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-03 11:20:26,703 autoreload Watching for file changes with StatReloader
+INFO 2024-10-03 11:21:58,342 autoreload Watching for file changes with StatReloader
