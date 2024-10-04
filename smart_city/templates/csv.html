@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Upload de CSV</title>
+    <title>Upload de Arquivos CSV</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -46,14 +46,14 @@
     </style>
 </head>
 <body>
-    <h1>Upload de CSV</h1>
-    <form action="http://127.0.0.1:8000/api/upload_csv/" method="post" enctype="multipart/form-data">
+    <h1>Upload de CSV Sensores</h1>
+    <form id="uploadCSVForm" action="http://127.0.0.1:8000/api/upload_csv/" method="post" enctype="multipart/form-data">
         {% csrf_token %}
         <div>
             <label for="file">Escolha o arquivo CSV:</label>
             <input type="file" id="file" name="file" accept=".csv" required />
         </div>
-        <button type="submit">Enviar</button>
+        <button type="submit">Enviar CSV</button>
     </form>
 </body>
 </html>

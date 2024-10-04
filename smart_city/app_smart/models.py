@@ -36,7 +36,8 @@ class TemperaturaData(models.Model):
 class UmidadeData(models.Model):
     sensor = models.ForeignKey(Sensor, on_delete=models.CASCADE)
     valor = models.FloatField() #Valor da umidade relativa em %
-    timestamp = models.DateTimeField(auto_now_add=True)
+    timestamp = models.DateTimeField(null=True)
+    # timestamp = models.DateTimeField(auto_now_add=True)
     
     def __str__(self):
         return f'Umidade: {self.valor}% - {self.timestamp}'
@@ -44,7 +45,8 @@ class UmidadeData(models.Model):
 # Tabela para armazenar os dados do contador
 class ContadorData(models.Model):
     sensor = models.ForeignKey(Sensor, on_delete=models.CASCADE)
-    timestamp = models.DateTimeField(auto_now_add=True)
+    timestamp = models.DateTimeField(null=True)
+    # timestamp = models.DateTimeField(auto_now_add=True)
     
     def __str__(self):
         return f'Contagem: {self.timestamp}'

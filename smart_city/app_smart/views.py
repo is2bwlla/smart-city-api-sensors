@@ -67,64 +67,9 @@ class UploadCSVViewSet(viewsets.ViewSet):
             logger.error(f"Erros no formulário: {form.errors}")
             return Response(form.errors, status=status.HTTP_400_BAD_REQUEST)
 
-class TemperatureCSVViewSet(viewsets.ViewSet):
-    parser_classes = (MultiPartParser, FormParser)
-
-    REQUIRED_COLUMNS = ['sensor_id', 'valor', 'timestamp']
-
-    def create(self, request):
-        form = CSVForm(request.POST, request.FILES)
-        
-        if form.is_valid():
-            csv_file = request.FILES['file']
-            
-            if not csv_file.name.endswith('.csv'):
-                logger.error(f"Form errors: {form.errors}")
-                return Response({'error': 'Este não é um arquivo CSV válido.'}, status=status.HTTP_400_BAD_REQUEST)
-            
-            try:
-                file_data = csv_file.read().decode('utf-8').splitlines()
-                reader = csv.DictReader(file_data, delimiter=',')
-                
-                # Verificar colunas obrigatórias
-                missing_columns = [col for col in self.REQUIRED_COLUMNS if col not in reader.fieldnames]
-                if missing_columns:
-                    logger.error(f"Colunas faltando no CSV: {missing_columns}")
-                    return Response({'error': f"Colunas faltando no CSV: {', '.join(missing_columns)}"}, status=status.HTTP_400_BAD_REQUEST)
-
-                line_count = 0
-                for row in reader:
-                    try:
-                        sensor_id = int(row['sensor_id'])
-                        valor = float(row['valor'])
-                        timestamp = parser.parse(row['timestamp'])
-                        sensor = Sensor.objects.get(id=sensor_id)
-                        TemperaturaData.objects.create(sensor=sensor, valor=valor, timestamp=timestamp)
-                        line_count += 1
-                        
-                        if line_count % 10000 == 0:
-                            logger.info(f'{line_count} linhas processadas...')  # Usar logger em vez de print
-                        
-                    except (ValueError, IntegrityError) as e:
-                        logger.error(f"Erro ao processar a linha do CSV: {e}")
-                        # Se desejar, você pode coletar erros e retornar todos no final
-
-                return Response({'message': 'CSV processado com sucesso!'}, status=status.HTTP_201_CREATED)
-            
-            except Exception as e:
-                logger.error(f"Erro geral no processamento do CSV: {e}")
-                return Response({'error': 'Erro ao processar o arquivo CSV.'}, status=status.HTTP_400_BAD_REQUEST)
-                
-        else:
-            logger.error(f"Erros no formulário: {form.errors}")
-            return Response(form.errors, status=status.HTTP_400_BAD_REQUEST)
-
 def open_index(request):
     message = 'Open index...'
     return HttpResponse(message)
 
 def upload_view(request):
     return render(request, 'csv.html')
-
-def temperatura_view(resquest):
-    return render(resquest, 'temperatura.html')

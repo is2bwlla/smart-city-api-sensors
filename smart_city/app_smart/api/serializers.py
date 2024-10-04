@@ -1,7 +1,7 @@
 from django.contrib.auth.models import User
 from rest_framework.serializers import ModelSerializer, CharField, FileField
 from django.contrib.auth.hashers import make_password
-from app_smart.models import Sensor, TemperaturaData
+from app_smart.models import Sensor, TemperaturaData, UmidadeData
 
 class UserSerializer(ModelSerializer):
     password = CharField(write_only=True)
@@ -27,4 +27,9 @@ class CSVUploadSerializer(ModelSerializer):
 class TemperaturaDataSerializer(ModelSerializer):
     class Meta:
         model = TemperaturaData
+        fields = '__all__'
+        
+class UmidadeDataSerializer(ModelSerializer):
+    class Meta:
+        model = UmidadeData
         fields = '__all__'
