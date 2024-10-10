@@ -1,2 +1,0 @@
-- 06:
-É pra fazer um código que abra o explorador de arquivos e me deixe escolher um .csv para ser lido e para que ele popule o banco de dados

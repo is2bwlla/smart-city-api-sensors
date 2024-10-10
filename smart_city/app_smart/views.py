@@ -4,14 +4,9 @@ from rest_framework import status, viewsets
 from rest_framework.response import Response
 from dateutil import parser
 from rest_framework.parsers import MultiPartParser, FormParser
-import pandas as pd
 import csv
 from .forms import CSVForm
 from .models import Sensor, TemperaturaData, UmidadeData, LuminosidadeData, ContadorData
-from django.db import IntegrityError
-import logging
-
-logger = logging.getLogger(__name__)
 
 def upload_CSV(request, model_class, expected_fields):
     if request.method == 'POST':
