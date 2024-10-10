@@ -2240,3 +2240,4 @@ ValueError: Field 'id' expected a number but got ';;;'.
 INFO 2024-10-09 21:38:49,146 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
 INFO 2024-10-09 21:38:50,281 autoreload Watching for file changes with StatReloader
 INFO 2024-10-09 21:40:58,111 autoreload Watching for file changes with StatReloader
+INFO 2024-10-10 07:48:25,909 autoreload Watching for file changes with StatReloader
