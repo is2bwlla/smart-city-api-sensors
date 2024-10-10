@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload de Arquivos CSV</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #a7c6ed 0%, #5c9fd5 100%);
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .form-container {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 40px 30px;
+            border-radius: 25px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 30px;
+            margin-bottom: 25px;
+            color: #444;
+            font-weight: 600;
+        }
+
+        .form-section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 2px solid #ddd;
+            border-radius: 15px;
+            background-color: #f9f9f9;
+        }
+
+        .form-section h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .file-upload {
+            position: relative;
+            margin: 12px 0;
+        }
+
+        .file-upload input[type="file"] {
+            display: none;
+        }
+
+        .file-upload label {
+            display: block;
+            width: 80%;
+            padding: 15px;
+            margin: 0 auto;
+            border: 2px solid #ddd;
+            border-radius: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+            cursor: pointer;
+            transition: border-color 0.3s ease, background-color 0.3s ease;
+        }
+
+        .file-upload label:hover {
+            border-color: #6dd5ed;
+            background-color: #fff;
+        }
+
+        button {
+            background: linear-gradient(135deg, #6dd5ed 0%, #2193b0 100%);
+            color: #fff;
+            border: none;
+            padding: 15px 40px;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            display: inline-block;
+            width: 80%;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(33, 147, 176, 0.7);
+        }
+
+        @media (max-width: 768px) {
+            .form-container {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+
+            .form-section {
+                padding: 15px;
+            }
+
+            button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Upload de Arquivos CSV</h1>
+
+        {% if message %}
+            <div style="margin-bottom: 20px; color: #28a745;">
+                <script>
+                    alert("{{ message }}");
+                </script>
+            </div>
+        {% endif %}
+
+        <div class="form-section">
+            <h2>Upload de Sensores</h2>
+            <form method="POST" enctype="multipart/form-data" action="{% url 'upload_sensores' %}">
+                {% csrf_token %}
+                <div class="file-upload">
+                    <label for="file_sensores" id="label_sensores">Escolha o arquivo de Sensores</label>
+                    <input type="file" id="file_sensores" name="file" accept=".csv" required onchange="updateLabel('file_sensores', 'label_sensores');">
+                </div>
+                <button type="submit">Enviar Sensores</button>
+            </form>
+        </div>
+
+        <div class="form-section">
+            <h2>Upload de Contador</h2>
+            <form method="POST" enctype="multipart/form-data" action="{% url 'upload_contador' %}">
+                {% csrf_token %}
+                <div class="file-upload">
+                    <label for="file_contador" id="label_contador">Escolha o arquivo de Contador</label>
+                    <input type="file" id="file_contador" name="file" accept=".csv" required onchange="updateLabel('file_contador', 'label_contador');">
+                </div>
+                <button type="submit">Enviar Contador</button>
+            </form>
+        </div>
+
+        <div class="form-section">
+            <h2>Upload de Luminosidade</h2>
+            <form method="POST" enctype="multipart/form-data" action="{% url 'upload_luminosidade' %}">
+                {% csrf_token %}
+                <div class="file-upload">
+                    <label for="file_luminosidade" id="label_luminosidade">Escolha o arquivo de Luminosidade</label>
+                    <input type="file" id="file_luminosidade" name="file" accept=".csv" required onchange="updateLabel('file_luminosidade', 'label_luminosidade');">
+                </div>
+                <button type="submit">Enviar Luminosidade</button>
+            </form>
+        </div>
+
+        <div class="form-section">
+            <h2>Upload de Temperatura</h2>
+            <form method="POST" enctype="multipart/form-data" action="{% url 'upload_temperatura' %}">
+                {% csrf_token %}
+                <div class="file-upload">
+                    <label for="file_temperatura" id="label_temperatura">Escolha o arquivo de Temperatura</label>
+                    <input type="file" id="file_temperatura" name="file" accept=".csv" required onchange="updateLabel('file_temperatura', 'label_temperatura');">
+                </div>
+                <button type="submit">Enviar Temperatura</button>
+            </form>
+        </div>
+
+        <div class="form-section">
+            <h2>Upload de Umidade</h2>
+            <form method="POST" enctype="multipart/form-data" action="{% url 'upload_umidade' %}">
+                {% csrf_token %}
+                <div class="file-upload">
+                    <label for="file_umidade" id="label_umidade">Escolha o arquivo de Umidade</label>
+                    <input type="file" id="file_umidade" name="file" accept=".csv" required onchange="updateLabel('file_umidade', 'label_umidade');">
+                </div>
+                <button type="submit">Enviar Umidade</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function updateLabel(fileInputId, labelId) {
+            const fileInput = document.getElementById(fileInputId);
+            const label = document.getElementById(labelId);
+            if (fileInput.files.length > 0) {
+                label.textContent = `Arquivo selecionado: ${fileInput.files[0].name}`;
+            } else {
+                label.textContent = `Escolha um arquivo`;
+            }
+        }
+    </script>
+</body>
+</html>

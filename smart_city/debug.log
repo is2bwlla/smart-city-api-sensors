@@ -1143,3 +1143,1100 @@ INFO 2024-10-04 11:22:36,582 autoreload C:\Users\47955124855\Desktop\smart_city_
 INFO 2024-10-04 11:22:37,384 autoreload Watching for file changes with StatReloader
 INFO 2024-10-04 11:22:39,583 autoreload C:\Users\47955124855\Desktop\smart_city_django\smart_city\app_smart\urls.py changed, reloading.
 INFO 2024-10-04 11:22:40,373 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:30:55,528 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:31:14,798 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:31:15,745 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:34:36,355 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:34:37,403 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:34:41,170 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:34:42,140 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:34:47,009 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:34:47,952 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:34:49,573 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:34:50,445 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:34:54,187 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:34:55,005 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:34:57,667 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:34:58,572 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:35:01,186 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:35:02,019 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:35:06,850 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:35:07,708 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:35:13,698 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:35:14,595 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:35:18,321 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:35:19,236 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:35:21,966 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:35:22,827 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:35:25,535 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:35:26,429 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:35:28,016 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:35:28,925 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:35:30,528 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:35:31,586 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:35:33,241 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:35:34,089 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:35:35,613 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:35:36,585 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:35:40,393 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:35:41,603 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:35:44,248 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:35:45,090 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:35:46,619 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:35:47,507 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:35:51,263 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:35:52,163 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:35:54,830 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:35:55,719 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:35:57,300 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:35:58,161 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:36:05,330 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:36:06,179 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:36:15,607 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:36:16,531 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:36:20,365 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:36:21,329 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:36:23,904 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:36:24,959 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:36:37,829 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:36:38,808 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:36:58,129 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:36:58,984 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:37:00,538 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:37:01,474 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:37:04,137 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:37:05,038 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:37:10,035 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:37:11,081 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:37:13,858 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:37:14,849 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:37:16,351 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:37:17,391 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:37:22,327 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:37:23,247 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:37:26,968 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:37:27,869 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:37:31,612 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:37:32,425 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:37:35,079 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:37:35,958 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:37:37,459 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:37:38,439 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:37:40,024 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:37:40,850 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:37:43,474 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:37:44,414 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:37:47,074 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:37:47,929 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:37:50,692 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:37:51,689 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:37:55,423 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:37:56,264 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:38:04,596 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:38:05,545 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:38:08,115 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:38:09,008 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:38:11,646 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:38:12,584 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:38:14,102 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:38:14,979 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:38:19,943 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:38:20,857 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:38:23,624 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:38:24,513 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:38:29,329 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:38:30,303 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:38:31,823 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:38:32,685 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:38:35,306 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:38:36,143 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:38:40,988 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:38:41,827 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:38:45,799 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:38:46,765 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:39:02,159 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:39:03,054 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:39:06,533 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:39:07,428 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:39:10,930 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:39:11,868 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:39:18,882 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:39:19,912 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:39:22,384 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:39:23,324 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:39:26,891 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:39:27,777 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:39:33,502 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:39:34,384 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:39:40,085 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:39:40,957 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:39:45,522 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:39:46,418 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:39:49,867 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:39:50,776 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:39:53,373 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:39:54,209 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:39:56,517 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:39:57,485 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:39:59,966 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:40:00,909 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:40:02,437 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:40:03,508 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:40:05,904 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:40:06,857 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:40:13,831 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:40:14,852 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:40:18,313 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:40:19,319 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:40:20,808 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:40:21,659 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:40:23,163 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:40:24,014 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:40:27,454 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:40:28,337 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:40:31,757 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:40:32,677 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:40:35,008 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:40:36,094 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:40:38,371 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:40:39,235 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:40:43,798 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:40:44,671 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:40:49,273 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:40:50,193 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:40:52,772 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:40:53,615 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:40:57,315 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:40:58,196 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:41:04,073 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:41:04,913 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:41:08,606 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:41:09,418 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:41:17,550 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:41:18,576 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:41:22,284 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:41:23,081 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:41:25,772 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:41:26,597 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:41:29,196 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:41:30,034 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:41:34,810 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:41:35,672 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:41:37,164 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:41:37,978 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:41:40,572 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:41:41,487 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:41:42,992 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:41:43,849 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:41:46,425 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:41:47,306 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:41:48,863 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:41:49,752 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:41:53,482 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:41:54,295 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:41:56,900 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:41:57,739 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:42:03,607 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:42:04,466 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:42:05,966 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:42:06,862 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:42:10,622 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:42:11,497 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:42:15,187 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:42:16,004 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:42:19,832 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:42:20,711 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:42:22,217 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:42:23,144 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:42:27,946 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:42:28,769 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:42:33,559 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:42:34,393 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:42:36,979 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:42:37,780 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:42:41,330 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:42:42,268 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:42:46,905 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:42:47,813 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:42:53,588 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:42:54,533 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:42:57,891 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:42:58,792 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:43:05,582 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:43:06,452 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:43:12,051 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:43:12,943 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:43:15,232 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:43:16,090 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:43:19,399 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:43:20,243 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:43:24,765 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:43:25,689 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:43:27,210 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:43:28,025 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:43:30,356 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:43:31,273 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:43:34,651 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:43:35,575 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:43:40,396 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:43:41,314 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:43:44,805 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:43:45,703 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:43:49,397 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:43:50,200 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:43:52,409 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:43:53,374 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:43:57,875 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:43:58,721 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:44:02,079 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:44:03,160 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:44:08,816 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:44:09,702 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:44:14,158 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:44:15,145 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:44:19,550 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:44:20,482 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:44:22,786 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:44:23,645 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:44:25,136 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:44:25,961 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:44:28,497 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:44:29,383 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:44:30,948 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:44:31,753 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:44:40,717 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:44:41,589 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:44:45,232 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:44:46,093 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:44:50,642 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:44:51,476 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:44:57,131 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:44:58,006 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:45:00,427 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:45:01,291 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:45:08,111 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:45:09,022 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:47:31,415 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:49:00,792 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:49:01,785 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:49:04,480 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 19:49:05,351 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 19:49:48,209 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:15:41,622 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:16:49,701 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-09 20:19:55,274 log Not Found: /api/upload_csv/
+WARNING 2024-10-09 20:19:55,680 log Not Found: /favicon.ico
+WARNING 2024-10-09 20:21:55,912 log Not Found: /api/upload_csv/
+INFO 2024-10-09 20:32:23,713 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:35:29,249 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:38:24,833 autoreload Watching for file changes with StatReloader
+ERROR 2024-10-09 20:38:29,650 log Internal Server Error: /upload/sensors/
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view app_smart.views.upload_sensores_view didn't return an HttpResponse object. It returned None instead.
+INFO 2024-10-09 20:39:28,652 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:39:29,544 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:39:51,160 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:39:52,060 autoreload Watching for file changes with StatReloader
+ERROR 2024-10-09 20:41:27,781 log Internal Server Error: /upload/contador/
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2123, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ';;;'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py", line 124, in upload_contador_view
+    return upload_CSV(request, ContadorData, expected_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py", line 36, in upload_CSV
+    model_instance.save()
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1758, in as_sql
+    value_rows = [
+                 ^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1759, in <listcomp>
+    [
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1760, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1699, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\related.py", line 1142, in get_db_prep_save
+    return self.target_field.get_db_prep_save(value, connection=connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1008, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2815, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2125, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got ';;;'.
+INFO 2024-10-09 20:43:05,610 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:43:06,752 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:43:09,425 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:43:10,218 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:43:12,995 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:43:13,862 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:43:22,215 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:43:23,092 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:43:32,470 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:43:33,266 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:43:47,210 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:43:48,024 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:43:52,778 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:43:53,625 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:43:59,766 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:44:00,621 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:44:05,385 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:44:06,182 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:44:11,284 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:44:12,133 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:44:15,935 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:44:16,775 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:44:21,813 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:44:22,696 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:44:25,487 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:44:26,375 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:44:30,201 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:44:31,233 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:44:33,991 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:44:34,965 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:44:41,071 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:44:42,091 autoreload Watching for file changes with StatReloader
+ERROR 2024-10-09 20:44:44,042 log Internal Server Error: /upload/contador/
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: app_smart_contadordata.sensor_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py", line 130, in upload_contador_view
+    return upload_CSV(request, ContadorData, expected_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py", line 42, in upload_CSV
+    model_instance.save()
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: app_smart_contadordata.sensor_id
+INFO 2024-10-09 20:45:30,995 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:45:31,849 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:45:34,665 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:45:35,516 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:45:54,063 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:45:55,036 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:45:58,946 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:45:59,911 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:46:08,283 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:46:09,130 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:46:13,086 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:46:13,939 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:46:16,960 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:46:17,821 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:46:24,829 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:46:25,585 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:46:29,279 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:46:30,043 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:46:32,590 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:46:33,497 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:46:43,197 autoreload Watching for file changes with StatReloader
+ERROR 2024-10-09 20:46:52,749 log Internal Server Error: /upload/contador/
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view app_smart.views.upload_contador_view didn't return an HttpResponse object. It returned None instead.
+INFO 2024-10-09 20:47:46,530 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:47:47,440 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:47:54,683 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:47:55,563 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:47:58,105 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:47:58,892 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:48:08,544 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:48:09,347 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:48:31,140 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:48:32,052 autoreload Watching for file changes with StatReloader
+ERROR 2024-10-09 20:48:34,933 log Internal Server Error: /upload/contador/
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view app_smart.views.upload_contador_view didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-10-09 20:48:35,815 log Internal Server Error: /upload/contador/
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view app_smart.views.upload_contador_view didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-10-09 20:48:35,984 log Internal Server Error: /upload/contador/
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view app_smart.views.upload_contador_view didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-10-09 20:48:36,159 log Internal Server Error: /upload/contador/
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view app_smart.views.upload_contador_view didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-10-09 20:48:36,287 log Internal Server Error: /upload/contador/
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view app_smart.views.upload_contador_view didn't return an HttpResponse object. It returned None instead.
+INFO 2024-10-09 20:49:19,298 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:49:20,204 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:49:24,204 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:49:25,100 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:49:31,184 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:49:32,014 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:49:33,497 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 20:49:34,293 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:55:47,597 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 20:57:09,962 autoreload Watching for file changes with StatReloader
+ERROR 2024-10-09 20:57:51,743 log Internal Server Error: /upload/contador/
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py", line 81, in upload_contador_view
+    return upload_CSV(request, ContadorData, expected_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py", line 44, in upload_CSV
+    model_instance.save()
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1848, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+ERROR 2024-10-09 20:58:14,110 log Internal Server Error: /upload/contador/
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py", line 81, in upload_contador_view
+    return upload_CSV(request, ContadorData, expected_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py", line 44, in upload_CSV
+    model_instance.save()
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1848, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+INFO 2024-10-09 20:58:41,955 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:01:12,789 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:01:13,711 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:02:34,845 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-09 21:02:43,823 log Not Found: /upload/sensores/
+INFO 2024-10-09 21:03:08,155 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:05:53,434 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:05:54,298 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:06:50,085 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:06:50,980 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:08:47,368 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\smart_city\settings.py changed, reloading.
+INFO 2024-10-09 21:08:48,336 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:10:51,472 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:13:36,337 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:14:41,420 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:15:04,823 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:19:41,157 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:19:42,156 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:19:45,017 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:19:45,862 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:19:49,573 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:19:50,356 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:19:51,835 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:19:52,792 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:19:56,515 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:19:57,277 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:19:58,871 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:19:59,649 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:20:01,133 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:20:01,907 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:20:16,420 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:20:17,190 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:20:31,824 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:20:32,644 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:20:34,191 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:20:34,980 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:20:38,587 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:20:39,413 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:20:42,030 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:20:42,788 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:20:59,720 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:21:00,472 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:21:45,617 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\smart_city\settings.py changed, reloading.
+INFO 2024-10-09 21:21:46,642 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:22:07,905 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:22:08,752 autoreload Watching for file changes with StatReloader
+DEBUG 2024-10-09 21:22:09,488 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.913558', 'longitude': '-47.067072', 'localizacao': 'LAB 100', 'responsavel': 'Maria Silva', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,488 views Lido do CSV: {'tipo': 'Contador', 'unidade_medida': 'contagem', 'latitude': '-22.913238', 'longitude': '-47.067549', 'localizacao': 'LAB 101', 'responsavel': 'João Santos', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Contador com unidade de medida contagem.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,489 views Lido do CSV: {'tipo': 'Contador', 'unidade_medida': 'contagem', 'latitude': '-22.913003', 'longitude': '-47.068994', 'localizacao': 'LAB 102', 'responsavel': 'Ana Costa', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Contador com unidade de medida contagem.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,489 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.913328', 'longitude': '-47.067554', 'localizacao': 'LAB 103', 'responsavel': 'Carlos Lima', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,489 views Lido do CSV: {'tipo': 'Contador', 'unidade_medida': 'contagem', 'latitude': '-22.914137', 'longitude': '-47.068827', 'localizacao': 'LAB 104', 'responsavel': 'Luiza Fernandes', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Contador com unidade de medida contagem.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,491 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.914465', 'longitude': '-47.068492', 'localizacao': 'LAB 105', 'responsavel': 'Maria Silva', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,491 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.913141', 'longitude': '-47.067829', 'localizacao': 'LAB 106', 'responsavel': 'João Santos', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,492 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.914851', 'longitude': '-47.067526', 'localizacao': 'LAB 107', 'responsavel': 'Ana Costa', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,494 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.913278', 'longitude': '-47.068403', 'localizacao': 'LAB 108', 'responsavel': 'Carlos Lima', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,495 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.914807', 'longitude': '-47.067889', 'localizacao': 'LAB 109', 'responsavel': 'Luiza Fernandes', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,496 views Lido do CSV: {'tipo': 'Contador', 'unidade_medida': 'contagem', 'latitude': '-22.913075', 'longitude': '-47.068941', 'localizacao': 'LAB 100', 'responsavel': 'Maria Silva', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Contador com unidade de medida contagem.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,496 views Lido do CSV: {'tipo': 'Contador', 'unidade_medida': 'contagem', 'latitude': '-22.914216', 'longitude': '-47.068013', 'localizacao': 'LAB 101', 'responsavel': 'João Santos', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Contador com unidade de medida contagem.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,497 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.913928', 'longitude': '-47.068242', 'localizacao': 'LAB 102', 'responsavel': 'Ana Costa', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,497 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.914648', 'longitude': '-47.068473', 'localizacao': 'LAB 103', 'responsavel': 'Carlos Lima', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,498 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.914869', 'longitude': '-47.068609', 'localizacao': 'LAB 104', 'responsavel': 'Luiza Fernandes', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,498 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.914056', 'longitude': '-47.068856', 'localizacao': 'LAB 105', 'responsavel': 'Maria Silva', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,499 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.913225', 'longitude': '-47.067881', 'localizacao': 'LAB 106', 'responsavel': 'João Santos', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,499 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.913151', 'longitude': '-47.067875', 'localizacao': 'LAB 107', 'responsavel': 'Ana Costa', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,499 views Lido do CSV: {'tipo': 'Contador', 'unidade_medida': 'contagem', 'latitude': '-22.913593', 'longitude': '-47.068489', 'localizacao': 'LAB 108', 'responsavel': 'Carlos Lima', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Contador com unidade de medida contagem.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,500 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.914978', 'longitude': '-47.068348', 'localizacao': 'LAB 109', 'responsavel': 'Luiza Fernandes', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,500 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.913099', 'longitude': '-47.068395', 'localizacao': 'LAB 100', 'responsavel': 'Maria Silva', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,501 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.914012', 'longitude': '-47.068452', 'localizacao': 'LAB 101', 'responsavel': 'João Santos', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,501 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.914835', 'longitude': '-47.068807', 'localizacao': 'LAB 102', 'responsavel': 'Ana Costa', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,502 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.914383', 'longitude': '-47.067202', 'localizacao': 'LAB 103', 'responsavel': 'Carlos Lima', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,502 views Lido do CSV: {'tipo': 'Contador', 'unidade_medida': 'contagem', 'latitude': '-22.913416', 'longitude': '-47.067533', 'localizacao': 'LAB 104', 'responsavel': 'Luiza Fernandes', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Contador com unidade de medida contagem.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,502 views Lido do CSV: {'tipo': 'Contador', 'unidade_medida': 'contagem', 'latitude': '-22.91388', 'longitude': '-47.068681', 'localizacao': 'LAB 105', 'responsavel': 'Maria Silva', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Contador com unidade de medida contagem.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,503 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.914594', 'longitude': '-47.068661', 'localizacao': 'LAB 106', 'responsavel': 'João Santos', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,503 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.913838', 'longitude': '-47.06806', 'localizacao': 'LAB 107', 'responsavel': 'Ana Costa', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,504 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.914412', 'longitude': '-47.067109', 'localizacao': 'LAB 108', 'responsavel': 'Carlos Lima', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,504 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.914888', 'longitude': '-47.068852', 'localizacao': 'LAB 109', 'responsavel': 'Luiza Fernandes', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,504 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.913227', 'longitude': '-47.068115', 'localizacao': 'LAB 100', 'responsavel': 'Maria Silva', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,505 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.914241', 'longitude': '-47.06881', 'localizacao': 'LAB 101', 'responsavel': 'João Santos', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,505 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.914319', 'longitude': '-47.068899', 'localizacao': 'LAB 102', 'responsavel': 'Ana Costa', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,506 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.913563', 'longitude': '-47.068396', 'localizacao': 'LAB 103', 'responsavel': 'Carlos Lima', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,507 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.913197', 'longitude': '-47.06789', 'localizacao': 'LAB 104', 'responsavel': 'Luiza Fernandes', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,508 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.913494', 'longitude': '-47.067548', 'localizacao': 'LAB 105', 'responsavel': 'Maria Silva', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,508 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.91358', 'longitude': '-47.067365', 'localizacao': 'LAB 106', 'responsavel': 'João Santos', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,509 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.914817', 'longitude': '-47.067539', 'localizacao': 'LAB 107', 'responsavel': 'Ana Costa', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,509 views Lido do CSV: {'tipo': 'Contador', 'unidade_medida': 'contagem', 'latitude': '-22.913615', 'longitude': '-47.067377', 'localizacao': 'LAB 108', 'responsavel': 'Carlos Lima', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Contador com unidade de medida contagem.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,510 views Lido do CSV: {'tipo': 'Contador', 'unidade_medida': 'contagem', 'latitude': '-22.913885', 'longitude': '-47.067084', 'localizacao': 'LAB 109', 'responsavel': 'Luiza Fernandes', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Contador com unidade de medida contagem.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,511 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.913469', 'longitude': '-47.067978', 'localizacao': 'LAB 100', 'responsavel': 'Maria Silva', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,511 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.913022', 'longitude': '-47.06831', 'localizacao': 'LAB 101', 'responsavel': 'João Santos', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,512 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.913676', 'longitude': '-47.068343', 'localizacao': 'LAB 102', 'responsavel': 'Ana Costa', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,512 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.913961', 'longitude': '-47.068', 'localizacao': 'LAB 103', 'responsavel': 'Carlos Lima', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,513 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.914484', 'longitude': '-47.068553', 'localizacao': 'LAB 104', 'responsavel': 'Luiza Fernandes', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,513 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.914675', 'longitude': '-47.067684', 'localizacao': 'LAB 105', 'responsavel': 'Maria Silva', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,514 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.913055', 'longitude': '-47.068778', 'localizacao': 'LAB 106', 'responsavel': 'João Santos', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,514 views Lido do CSV: {'tipo': 'Contador', 'unidade_medida': 'contagem', 'latitude': '-22.913643', 'longitude': '-47.067628', 'localizacao': 'LAB 107', 'responsavel': 'Ana Costa', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Contador com unidade de medida contagem.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,514 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.913429', 'longitude': '-47.068089', 'localizacao': 'LAB 108', 'responsavel': 'Carlos Lima', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:09,515 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.913215', 'longitude': '-47.067016', 'localizacao': 'LAB 109', 'responsavel': 'Luiza Fernandes', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,470 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.913558', 'longitude': '-47.067072', 'localizacao': 'LAB 100', 'responsavel': 'Maria Silva', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,470 views Lido do CSV: {'tipo': 'Contador', 'unidade_medida': 'contagem', 'latitude': '-22.913238', 'longitude': '-47.067549', 'localizacao': 'LAB 101', 'responsavel': 'João Santos', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Contador com unidade de medida contagem.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,471 views Lido do CSV: {'tipo': 'Contador', 'unidade_medida': 'contagem', 'latitude': '-22.913003', 'longitude': '-47.068994', 'localizacao': 'LAB 102', 'responsavel': 'Ana Costa', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Contador com unidade de medida contagem.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,471 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.913328', 'longitude': '-47.067554', 'localizacao': 'LAB 103', 'responsavel': 'Carlos Lima', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,472 views Lido do CSV: {'tipo': 'Contador', 'unidade_medida': 'contagem', 'latitude': '-22.914137', 'longitude': '-47.068827', 'localizacao': 'LAB 104', 'responsavel': 'Luiza Fernandes', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Contador com unidade de medida contagem.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,472 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.914465', 'longitude': '-47.068492', 'localizacao': 'LAB 105', 'responsavel': 'Maria Silva', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,473 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.913141', 'longitude': '-47.067829', 'localizacao': 'LAB 106', 'responsavel': 'João Santos', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,474 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.914851', 'longitude': '-47.067526', 'localizacao': 'LAB 107', 'responsavel': 'Ana Costa', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,474 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.913278', 'longitude': '-47.068403', 'localizacao': 'LAB 108', 'responsavel': 'Carlos Lima', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,475 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.914807', 'longitude': '-47.067889', 'localizacao': 'LAB 109', 'responsavel': 'Luiza Fernandes', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,475 views Lido do CSV: {'tipo': 'Contador', 'unidade_medida': 'contagem', 'latitude': '-22.913075', 'longitude': '-47.068941', 'localizacao': 'LAB 100', 'responsavel': 'Maria Silva', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Contador com unidade de medida contagem.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,476 views Lido do CSV: {'tipo': 'Contador', 'unidade_medida': 'contagem', 'latitude': '-22.914216', 'longitude': '-47.068013', 'localizacao': 'LAB 101', 'responsavel': 'João Santos', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Contador com unidade de medida contagem.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,476 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.913928', 'longitude': '-47.068242', 'localizacao': 'LAB 102', 'responsavel': 'Ana Costa', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,477 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.914648', 'longitude': '-47.068473', 'localizacao': 'LAB 103', 'responsavel': 'Carlos Lima', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,477 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.914869', 'longitude': '-47.068609', 'localizacao': 'LAB 104', 'responsavel': 'Luiza Fernandes', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,477 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.914056', 'longitude': '-47.068856', 'localizacao': 'LAB 105', 'responsavel': 'Maria Silva', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,478 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.913225', 'longitude': '-47.067881', 'localizacao': 'LAB 106', 'responsavel': 'João Santos', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,478 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.913151', 'longitude': '-47.067875', 'localizacao': 'LAB 107', 'responsavel': 'Ana Costa', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,479 views Lido do CSV: {'tipo': 'Contador', 'unidade_medida': 'contagem', 'latitude': '-22.913593', 'longitude': '-47.068489', 'localizacao': 'LAB 108', 'responsavel': 'Carlos Lima', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Contador com unidade de medida contagem.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,479 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.914978', 'longitude': '-47.068348', 'localizacao': 'LAB 109', 'responsavel': 'Luiza Fernandes', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,480 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.913099', 'longitude': '-47.068395', 'localizacao': 'LAB 100', 'responsavel': 'Maria Silva', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,480 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.914012', 'longitude': '-47.068452', 'localizacao': 'LAB 101', 'responsavel': 'João Santos', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,480 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.914835', 'longitude': '-47.068807', 'localizacao': 'LAB 102', 'responsavel': 'Ana Costa', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,481 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.914383', 'longitude': '-47.067202', 'localizacao': 'LAB 103', 'responsavel': 'Carlos Lima', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,481 views Lido do CSV: {'tipo': 'Contador', 'unidade_medida': 'contagem', 'latitude': '-22.913416', 'longitude': '-47.067533', 'localizacao': 'LAB 104', 'responsavel': 'Luiza Fernandes', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Contador com unidade de medida contagem.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,482 views Lido do CSV: {'tipo': 'Contador', 'unidade_medida': 'contagem', 'latitude': '-22.91388', 'longitude': '-47.068681', 'localizacao': 'LAB 105', 'responsavel': 'Maria Silva', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Contador com unidade de medida contagem.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,482 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.914594', 'longitude': '-47.068661', 'localizacao': 'LAB 106', 'responsavel': 'João Santos', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,483 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.913838', 'longitude': '-47.06806', 'localizacao': 'LAB 107', 'responsavel': 'Ana Costa', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,483 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.914412', 'longitude': '-47.067109', 'localizacao': 'LAB 108', 'responsavel': 'Carlos Lima', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,484 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.914888', 'longitude': '-47.068852', 'localizacao': 'LAB 109', 'responsavel': 'Luiza Fernandes', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,484 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.913227', 'longitude': '-47.068115', 'localizacao': 'LAB 100', 'responsavel': 'Maria Silva', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,485 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.914241', 'longitude': '-47.06881', 'localizacao': 'LAB 101', 'responsavel': 'João Santos', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,485 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.914319', 'longitude': '-47.068899', 'localizacao': 'LAB 102', 'responsavel': 'Ana Costa', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,486 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.913563', 'longitude': '-47.068396', 'localizacao': 'LAB 103', 'responsavel': 'Carlos Lima', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,486 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.913197', 'longitude': '-47.06789', 'localizacao': 'LAB 104', 'responsavel': 'Luiza Fernandes', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,486 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.913494', 'longitude': '-47.067548', 'localizacao': 'LAB 105', 'responsavel': 'Maria Silva', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,487 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.91358', 'longitude': '-47.067365', 'localizacao': 'LAB 106', 'responsavel': 'João Santos', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,487 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.914817', 'longitude': '-47.067539', 'localizacao': 'LAB 107', 'responsavel': 'Ana Costa', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,488 views Lido do CSV: {'tipo': 'Contador', 'unidade_medida': 'contagem', 'latitude': '-22.913615', 'longitude': '-47.067377', 'localizacao': 'LAB 108', 'responsavel': 'Carlos Lima', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Contador com unidade de medida contagem.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,488 views Lido do CSV: {'tipo': 'Contador', 'unidade_medida': 'contagem', 'latitude': '-22.913885', 'longitude': '-47.067084', 'localizacao': 'LAB 109', 'responsavel': 'Luiza Fernandes', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Contador com unidade de medida contagem.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,489 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.913469', 'longitude': '-47.067978', 'localizacao': 'LAB 100', 'responsavel': 'Maria Silva', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,490 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.913022', 'longitude': '-47.06831', 'localizacao': 'LAB 101', 'responsavel': 'João Santos', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,491 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.913676', 'longitude': '-47.068343', 'localizacao': 'LAB 102', 'responsavel': 'Ana Costa', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,491 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.913961', 'longitude': '-47.068', 'localizacao': 'LAB 103', 'responsavel': 'Carlos Lima', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,492 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.914484', 'longitude': '-47.068553', 'localizacao': 'LAB 104', 'responsavel': 'Luiza Fernandes', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,493 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.914675', 'longitude': '-47.067684', 'localizacao': 'LAB 105', 'responsavel': 'Maria Silva', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,494 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.913055', 'longitude': '-47.068778', 'localizacao': 'LAB 106', 'responsavel': 'João Santos', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,494 views Lido do CSV: {'tipo': 'Contador', 'unidade_medida': 'contagem', 'latitude': '-22.913643', 'longitude': '-47.067628', 'localizacao': 'LAB 107', 'responsavel': 'Ana Costa', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Contador com unidade de medida contagem.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,495 views Lido do CSV: {'tipo': 'Temperatura', 'unidade_medida': '°C', 'latitude': '-22.913429', 'longitude': '-47.068089', 'localizacao': 'LAB 108', 'responsavel': 'Carlos Lima', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Temperatura com unidade de medida °C.', 'mac_address': ''}
+DEBUG 2024-10-09 21:22:14,495 views Lido do CSV: {'tipo': 'Umidade', 'unidade_medida': '%', 'latitude': '-22.913215', 'longitude': '-47.067016', 'localizacao': 'LAB 109', 'responsavel': 'Luiza Fernandes', 'status_operacional': 'True', 'observacao': 'Sensor do tipo Umidade com unidade de medida %.', 'mac_address': ''}
+INFO 2024-10-09 21:22:37,458 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:22:38,392 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:22:42,464 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:22:43,460 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:22:49,593 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:22:50,466 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:22:55,486 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:22:56,346 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:23:01,346 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:23:02,268 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:23:05,011 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:23:05,879 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:23:08,779 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:23:09,626 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:23:21,294 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:24:31,966 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:24:33,029 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:25:56,763 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:25:57,652 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-09 21:27:20,749 log Not Found: /favicon.ico
+ERROR 2024-10-09 21:27:50,126 log Internal Server Error: /upload/contador/
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2123, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ';;;'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py", line 73, in upload_contador_view
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py", line 39, in upload_CSV
+    model_instance.save()  # Salva a inst�ncia sem tratar exce��es
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1758, in as_sql
+    value_rows = [
+                 ^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1759, in <listcomp>
+    [
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1760, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1699, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\related.py", line 1142, in get_db_prep_save
+    return self.target_field.get_db_prep_save(value, connection=connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1008, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2815, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2125, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got ';;;'.
+INFO 2024-10-09 21:30:40,580 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:30:41,513 autoreload Watching for file changes with StatReloader
+ERROR 2024-10-09 21:30:47,787 log Internal Server Error: /upload/contador/
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2123, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ';;;'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py", line 79, in upload_contador_view
+    return upload_CSV(request, ContadorData, expected_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py", line 41, in upload_CSV
+    model_instance.save()
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1758, in as_sql
+    value_rows = [
+                 ^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1759, in <listcomp>
+    [
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1760, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1699, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\related.py", line 1142, in get_db_prep_save
+    return self.target_field.get_db_prep_save(value, connection=connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1008, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2815, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2125, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got ';;;'.
+INFO 2024-10-09 21:31:56,258 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:31:57,246 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:32:01,171 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:32:02,106 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:32:37,656 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:32:38,654 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:32:53,935 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:32:54,858 autoreload Watching for file changes with StatReloader
+ERROR 2024-10-09 21:33:02,744 log Internal Server Error: /upload/contador/
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2123, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ';;;'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py", line 77, in upload_contador_view
+    return upload_CSV(request, ContadorData, expected_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py", line 41, in upload_CSV
+    model_instance.save()
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1758, in as_sql
+    value_rows = [
+                 ^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1759, in <listcomp>
+    [
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1760, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1699, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\related.py", line 1142, in get_db_prep_save
+    return self.target_field.get_db_prep_save(value, connection=connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1008, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2815, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2125, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got ';;;'.
+INFO 2024-10-09 21:34:52,431 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:34:53,362 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:36:49,723 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:36:50,689 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:37:45,717 autoreload Watching for file changes with StatReloader
+ERROR 2024-10-09 21:37:54,855 log Internal Server Error: /upload/contador/
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2123, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ';;;'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py", line 77, in upload_contador_view
+    return upload_CSV(request, ContadorData, expected_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py", line 41, in upload_CSV
+    model_instance.save()
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 891, in save
+    self.save_base(
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1758, in as_sql
+    value_rows = [
+                 ^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1759, in <listcomp>
+    [
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1760, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1699, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\related.py", line 1142, in get_db_prep_save
+    return self.target_field.get_db_prep_save(value, connection=connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1008, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2815, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Wallisson Souza\Desktop\smart_city\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 2125, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got ';;;'.
+INFO 2024-10-09 21:38:49,146 autoreload C:\Users\Wallisson Souza\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-09 21:38:50,281 autoreload Watching for file changes with StatReloader
+INFO 2024-10-09 21:40:58,111 autoreload Watching for file changes with StatReloader
