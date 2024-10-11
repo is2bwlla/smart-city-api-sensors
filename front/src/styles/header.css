@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: palevioletred;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}

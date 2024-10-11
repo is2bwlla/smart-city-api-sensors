@@ -1,0 +1,6 @@
+ESSA PASTA SERVE PARA ARMAZENAR AS PÁGINAS DO PROJETO:
+
+- Homepage
+- Login
+- Cadastro
+- About

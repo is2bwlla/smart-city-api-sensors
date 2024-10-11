@@ -1,0 +1,6 @@
+ESSA PASTA SERVE PARA ARMAZENAR OS COMPONENTES DO PROJETO:
+
+- header
+- footer
+
+componentes: são como classes, eles podem ser reutilizados em outras páginas, quando importados eles levarão tanto a estilização quanto a lógica de funcionamento.

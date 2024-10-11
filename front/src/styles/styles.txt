@@ -1,0 +1,4 @@
+ESSA PASTA SERVE PARA ARMAZENAR AS ESTILIZAÇÕES DO PROJETO:
+
+- header.css
+- footer.css

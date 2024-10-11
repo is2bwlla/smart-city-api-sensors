@@ -1,0 +1,26 @@
+.login-card {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 250px;
+}
+
+.content {
+    background-color: palevioletred;
+    padding: 15px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+button {
+    outline: none;
+    border-color: #fff;
+}
