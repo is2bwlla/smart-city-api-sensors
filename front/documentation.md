@@ -51,3 +51,12 @@
     ###LINHA 03 A 17: eu criei um constante (const) chamada Header, ela armazena uma arrow function, dentro dessa função eu abro a tag <header> e nela eu adiciono as tags HTML necessárias para fazer uma nav, tudo isso da mesma forma como eu faria em um arquivo .html comum.
 
     ###LINHA 19: o 'export default Header' indica que você está exportando um componente único que pode ser importado por outros arquivos do meu projeto.
+
+
+# COMANDOS E INSTALAÇÕES:
+    1. npx create-react-app@5.0.1 (cria sua pasta do projeto react)
+    2. npx create-react-app <nome-do-seu-projeto> (cria o seu projeto)
+    3. npm start (starta o front no navegador)
+
+    1. npm install (instala o npm)
+    2. npm install react-router-dom (instala a biblioteca react "router" para navegar entre telas)
