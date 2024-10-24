@@ -2241,3 +2241,179 @@ INFO 2024-10-09 21:38:49,146 autoreload C:\Users\Wallisson Souza\Desktop\smart_c
 INFO 2024-10-09 21:38:50,281 autoreload Watching for file changes with StatReloader
 INFO 2024-10-09 21:40:58,111 autoreload Watching for file changes with StatReloader
 INFO 2024-10-10 07:48:25,909 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 07:37:31,032 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-24 07:50:13,961 log Not Found: /favicon.ico
+WARNING 2024-10-24 07:50:53,238 log Method Not Allowed: /api/create_user/
+INFO 2024-10-24 08:59:50,775 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:52:23,384 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:52:25,229 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:52:30,853 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:52:31,740 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:52:33,045 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:52:33,928 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:52:35,235 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:52:36,091 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:52:43,744 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:52:44,578 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:52:54,303 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:52:55,161 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:52:59,623 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:53:00,517 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:53:28,195 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:53:29,066 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:53:31,441 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:53:32,359 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:53:34,703 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:53:35,326 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:53:36,566 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:53:37,418 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:53:56,681 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:53:57,502 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:54:34,726 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:54:35,630 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:54:36,975 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:54:37,813 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:54:48,621 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:54:49,455 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:54:55,416 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:54:56,251 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:54:58,938 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:54:59,798 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:55:01,412 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:55:02,322 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:55:05,011 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:55:05,862 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:55:12,851 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:55:13,736 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:55:16,436 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:55:17,310 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:55:20,008 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:55:20,929 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:55:27,567 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:55:28,432 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:55:32,161 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:55:33,128 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:55:34,720 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:55:35,572 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:55:43,561 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:55:44,510 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:58:07,398 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:58:08,269 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:58:09,595 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:58:10,180 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:58:11,394 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:58:12,226 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:58:18,806 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:58:19,678 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:58:22,380 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:58:23,290 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:58:26,984 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:58:27,857 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:58:31,575 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:58:32,500 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:58:35,157 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:58:35,976 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:58:39,730 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:58:40,530 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:58:41,841 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:58:42,757 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:58:47,247 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:58:48,052 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:58:50,400 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:58:51,280 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:58:57,876 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:58:58,699 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:59:00,004 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:59:00,910 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:59:02,211 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:59:03,100 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:59:08,616 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:59:09,471 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:59:10,791 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:59:11,606 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:59:21,342 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:59:22,171 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:59:32,975 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:59:33,826 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:59:35,140 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:59:36,097 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:59:38,460 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:59:39,407 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:59:43,117 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:59:43,974 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:59:46,623 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:59:47,464 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:59:49,090 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:59:50,026 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:59:55,941 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:59:56,857 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 09:59:58,484 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 09:59:59,348 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:00:00,663 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 10:00:01,557 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:00:02,838 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 10:00:03,688 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:00:15,926 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 10:00:16,833 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:00:21,650 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 10:00:22,481 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:00:29,410 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 10:00:30,276 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:00:31,883 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 10:00:32,714 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:00:35,410 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 10:00:36,242 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:00:54,805 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-24 10:00:55,698 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:00:58,400 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-24 10:00:59,267 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:01:00,563 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-24 10:01:01,425 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:01:03,785 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-24 10:01:04,646 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:01:11,212 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-24 10:01:12,034 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:01:13,318 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-24 10:01:14,267 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:01:16,688 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-24 10:01:17,638 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:01:21,074 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-24 10:01:21,965 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:01:38,047 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-24 10:01:38,872 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:01:42,289 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-24 10:01:43,125 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:01:46,549 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-24 10:01:47,463 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:02:10,972 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-24 10:02:11,832 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:02:14,205 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-24 10:02:15,028 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:02:24,775 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-24 10:02:25,617 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:02:32,206 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-24 10:02:33,101 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:02:43,905 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-24 10:02:44,872 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:02:47,275 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-24 10:02:48,149 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:02:51,544 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-24 10:02:52,370 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:03:14,855 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-10-24 10:03:15,671 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:23:54,092 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 10:23:54,962 autoreload Watching for file changes with StatReloader
+INFO 2024-10-24 10:24:01,876 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-24 10:24:02,708 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-24 10:24:55,598 log Bad Request: /api/token/
+WARNING 2024-10-24 10:27:49,503 log Bad Request: /api/token/
+WARNING 2024-10-24 10:30:12,531 log Unauthorized: /api/token/
+WARNING 2024-10-24 10:33:39,764 log Unauthorized: /api/token/
+WARNING 2024-10-24 10:35:12,850 log Unauthorized: /api/token/
+WARNING 2024-10-24 10:36:21,141 log Unauthorized: /api/token/
+WARNING 2024-10-24 10:37:15,017 log Unauthorized: /api/token/
+WARNING 2024-10-24 10:37:51,768 log Unauthorized: /api/token/
+WARNING 2024-10-24 10:37:55,205 log Unauthorized: /api/token/
+WARNING 2024-10-24 10:38:27,413 log Unauthorized: /api/token/
+WARNING 2024-10-24 10:39:05,301 log Unauthorized: /api/token/
+WARNING 2024-10-24 10:39:55,522 log Unauthorized: /api/token/

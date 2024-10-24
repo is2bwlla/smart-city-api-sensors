@@ -9,14 +9,16 @@ import SignUp from "./pages/signup";
 
 // IMPORTAÇÕES DE ROUTER:
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Sensors from "./pages/sensors";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/login" element={<Login/>}/>
+        <Route path="/" element={<Login/>}/> 
+        <Route path="/home" element={<Home/>}/>
         <Route path="/signUp" element={<SignUp/>}/>
+        <Route path="/sensors" element={<Sensors/>}/>
       </Routes>
     </Router>
   );

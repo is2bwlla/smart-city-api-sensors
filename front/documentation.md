@@ -1,4 +1,4 @@
-#INSTRUÇÕES DO MEU FRONT EM REACT:
+##INSTRUÇÕES DO MEU FRONT EM REACT:
 
 ## Sumário:
     1. Diretório React;

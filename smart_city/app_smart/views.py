@@ -7,6 +7,8 @@ from rest_framework.parsers import MultiPartParser, FormParser
 import csv
 from .forms import CSVForm
 from .models import Sensor, TemperaturaData, UmidadeData, LuminosidadeData, ContadorData
+from rest_framework.decorators import api_view
+from django.contrib.auth import authenticate
 
 def upload_CSV(request, model_class, expected_fields):
     if request.method == 'POST':
@@ -91,3 +93,16 @@ def upload_sensores_view(request):
     
     form = CSVForm()
     return render(request, 'csv.html', {'form': form})
+
+@api_view(['POST'])
+def login_view(request):
+    username = request.data.get('username')
+    password = request.data.get('password')
+    
+    user = authenticate(username=username, password=password)
+    
+    if user is not None:
+        return Response ({'success': True, 'message': "Login successful."})
+    
+    else:
+        return Response({'success': False, 'message': 'Invalid Credentials.'}, status=401)
