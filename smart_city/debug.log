@@ -2417,3 +2417,20 @@ WARNING 2024-10-24 10:37:55,205 log Unauthorized: /api/token/
 WARNING 2024-10-24 10:38:27,413 log Unauthorized: /api/token/
 WARNING 2024-10-24 10:39:05,301 log Unauthorized: /api/token/
 WARNING 2024-10-24 10:39:55,522 log Unauthorized: /api/token/
+INFO 2024-10-25 07:47:41,366 autoreload Watching for file changes with StatReloader
+INFO 2024-10-25 09:47:51,736 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-25 09:47:54,200 autoreload Watching for file changes with StatReloader
+INFO 2024-10-25 09:47:58,049 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-25 09:47:58,962 autoreload Watching for file changes with StatReloader
+INFO 2024-10-25 09:48:00,544 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-25 09:48:01,351 autoreload Watching for file changes with StatReloader
+INFO 2024-10-25 09:48:03,974 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-25 09:48:04,801 autoreload Watching for file changes with StatReloader
+INFO 2024-10-25 09:48:06,346 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-25 09:48:07,119 autoreload Watching for file changes with StatReloader
+INFO 2024-10-25 09:48:12,902 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-25 09:48:13,755 autoreload Watching for file changes with StatReloader
+INFO 2024-10-25 09:48:15,314 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-25 09:48:16,076 autoreload Watching for file changes with StatReloader
+INFO 2024-10-25 09:48:21,833 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-10-25 09:48:22,585 autoreload Watching for file changes with StatReloader

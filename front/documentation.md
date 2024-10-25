@@ -60,3 +60,8 @@
 
     1. npm install (instala o npm)
     2. npm install react-router-dom (instala a biblioteca react "router" para navegar entre telas)
+
+
+
+
+-- GRAFANA PARA GRÁFICOS DOS SENSORES

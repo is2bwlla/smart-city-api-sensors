@@ -22,30 +22,27 @@ def upload_CSV(request, model_class, expected_fields):
 
             file_data = csv_file.read().decode('ISO-8859-1').splitlines()
             reader = csv.DictReader(file_data, delimiter=',')
-            success_count = 0  # Contador para o número de registros salvos
+            success_count = 0
 
             for row in reader:
                 model_instance = model_class()
 
-                # Define valores nos campos esperados
                 for field in expected_fields:
                     value = row.get(field)
-                    # Tenta setar o valor no campo, ignorando erros
+                    
                     if value is not None:
-                        # Verifica se o valor é numérico para campos que esperam números
-                        if field in ['sensor_id']:  # Adicione outros campos que esperam números
+                        if field in ['sensor_id']:  
                             try:
-                                value = float(value)  # Ou int(value) se for um inteiro
+                                value = float(value)  
                             except ValueError:
-                                continue  # Ignora se não for um número
+                                continue 
                         model_instance.__setattr__(field, value)
 
-                # Salva a instância sem capturar erros
                 try:
                     model_instance.save()
                     success_count += 1
                 except Exception:
-                    continue  # Ignora qualquer erro ao salvar
+                    continue
 
             return render(request, 'csv.html', {
                 'form': form,
@@ -53,7 +50,6 @@ def upload_CSV(request, model_class, expected_fields):
             })
         else:
             return render(request, 'csv.html', {'form': form, 'message': 'Erro no formulário.'})
-
     else:
         form = CSVForm()
 

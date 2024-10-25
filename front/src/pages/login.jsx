@@ -46,7 +46,6 @@ const Login = () => {
             console.error("Erro ao fazer login:", err);
 
             if (err.response) {
-                // Registra a resposta do servidor para verificar o que está errado
                 console.log("Erro de resposta:", err.response.data);
                 alert("Erro ao fazer login: " + (err.response.data.detail || "Erro desconhecido."));
             } else if (err.request) {
@@ -60,25 +59,23 @@ const Login = () => {
 
     return (
         <>
-            <head>
-                <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
-            </head>
-
-            <div className="login-card">
-                <h1>Login on SENAI Sensors</h1>
+            <div className="flex justify-center items-center mt-[250px] h-auto flex-col font-poppins">
+                <h1 className="text-2xl font-semibold mb-3">Login on SENAI Sensors</h1>
 
                 <form onSubmit={handleSubmit}>
-                    <div className="content">
-                        <h3 className="infos">USER:</h3>
+                    <div className="bg-[#6B8F71] p-5 text-[#fff] flex flex-col rounded-xl font-poppins">
+                        <h3 className="text-base mb-2 font-poppins">USER:</h3>
                         <input 
+                            className="outline-none border-[#fff] rounded-sm mb-3 w-[300px] h-8 font-poppins p-2 text-[#000]"
                             type="text" 
                             placeholder="Ex: Isabella"
                             value={username}
                             onChange={(e) => setUsername(e.target.value)}
                         />
 
-                        <h3 className="infos">PASSWORD:</h3>
+                        <h3 className="text-base mb-2 font-poppins">PASSWORD:</h3>
                         <input 
+                            className="outline-none border-[#fff] rounded-sm mb-3 w-[300px] h-8 font-poppins p-2 text-[#000]"
                             type="password" 
                             placeholder="Enter your password"
                             value={password}
@@ -86,15 +83,15 @@ const Login = () => {
                         />
 
                     
-                        <button type="submit" className="accept">SIGN ON</button>
-                        {error && <p className="error">{error}</p>}
+                        <button type="submit" className="outline-none bg-transparent text-[#fff] border-[2px] border-[#fff] w-[100px] h-8 text-base font-poppins">SIGN ON</button>
+                        {error && <p className="ml-20 mt-3 text-[#D9FFF5] text-base w-[150px] font-poppins">{error}</p>}
                         {/* <a href=""><p>Esqueceu a senha?</p></a> */}
                     </div>
                 </form>
 
-                <div className="register">
+                <div className="mt-4">
                     <Link to="/signUp">
-                        <button className="registration">
+                        <button className="outline-none bg-[#6B8F71] border-[2px] border-[#6B8F71] w-[150px] h-8 text-base font-semibold text-[#fff]">
                             SIGN UP
                         </button>
                     </Link>

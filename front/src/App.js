@@ -1,11 +1,10 @@
 import React from "react";
-import "./styles/header.css";
 import "./styles/styles.css";
 import "./styles/App.css";
 import Login from "./pages/login";
-import "./styles/login.css";
 import Home from "./pages/home";
 import SignUp from "./pages/signup";
+import './input.css';
 
 // IMPORTAÇÕES DE ROUTER:
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
