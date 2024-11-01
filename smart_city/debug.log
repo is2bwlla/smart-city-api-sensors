@@ -2434,3 +2434,65 @@ INFO 2024-10-25 09:48:15,314 autoreload C:\Users\47955124855\Desktop\smart_city\
 INFO 2024-10-25 09:48:16,076 autoreload Watching for file changes with StatReloader
 INFO 2024-10-25 09:48:21,833 autoreload C:\Users\47955124855\Desktop\smart_city\smart_city\app_smart\views.py changed, reloading.
 INFO 2024-10-25 09:48:22,585 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:06:56,223 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:44:21,054 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-11-01 08:44:22,706 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:45:15,459 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-11-01 08:45:16,438 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-01 08:45:18,680 log Not Found: /api/login/
+WARNING 2024-11-01 08:45:22,666 log Not Found: /api/login/
+INFO 2024-11-01 08:45:36,359 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-11-01 08:45:37,301 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:45:39,765 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-11-01 08:45:40,751 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:45:44,281 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-11-01 08:45:45,224 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:45:47,931 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-11-01 08:45:48,939 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:45:50,275 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-11-01 08:45:51,255 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:45:54,777 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-11-01 08:45:55,751 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:45:58,206 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-11-01 08:45:59,174 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:46:00,574 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-11-01 08:46:01,468 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:49:45,008 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-11-01 08:49:45,963 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:49:49,514 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-11-01 08:49:50,518 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:49:53,957 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-11-01 08:49:54,867 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:50:01,576 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-11-01 08:50:02,535 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:50:24,066 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-11-01 08:50:25,070 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:50:30,705 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-11-01 08:50:31,657 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:50:35,180 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-11-01 08:50:36,156 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:50:37,496 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-11-01 08:50:38,451 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:50:39,838 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-11-01 08:50:40,730 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:50:53,810 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-11-01 08:50:54,755 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:50:58,286 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-11-01 08:50:59,162 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:51:12,194 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-11-01 08:51:13,102 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-01 08:51:28,111 log Forbidden (Origin checking failed - http://localhost:3000 does not match any trusted origins.): /api/login/
+INFO 2024-11-01 08:51:42,647 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-11-01 08:51:43,563 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:51:46,274 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-11-01 08:51:47,215 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 08:51:48,842 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-11-01 08:51:49,785 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 10:29:53,199 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-11-01 10:29:55,107 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 10:30:02,160 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-11-01 10:30:03,123 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 10:39:18,414 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-11-01 10:39:19,349 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 10:39:36,962 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\views.py changed, reloading.
+INFO 2024-11-01 10:39:37,900 autoreload Watching for file changes with StatReloader

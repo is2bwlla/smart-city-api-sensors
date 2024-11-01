@@ -89,16 +89,3 @@ def upload_sensores_view(request):
     
     form = CSVForm()
     return render(request, 'csv.html', {'form': form})
-
-@api_view(['POST'])
-def login_view(request):
-    username = request.data.get('username')
-    password = request.data.get('password')
-    
-    user = authenticate(username=username, password=password)
-    
-    if user is not None:
-        return Response ({'success': True, 'message': "Login successful."})
-    
-    else:
-        return Response({'success': False, 'message': 'Invalid Credentials.'}, status=401)

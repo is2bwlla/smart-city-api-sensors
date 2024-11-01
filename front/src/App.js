@@ -5,19 +5,27 @@ import Login from "./pages/login";
 import Home from "./pages/home";
 import SignUp from "./pages/signup";
 import './input.css';
+import Umidity from "./pages/umidity";
+import PrivateRoute from "./components/privateRoute";
+import Temperature from "./pages/temperature";
+import Luminosity from "./pages/luminosity";
+import Counter from "./pages/counter";
 
 // IMPORTAÇÕES DE ROUTER:
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Sensors from "./pages/sensors";
+
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Login/>}/> 
-        <Route path="/home" element={<Home/>}/>
+        <Route path="/" element={<Home/>}/> 
+        <Route path="/login" element={<Login/>}/>
         <Route path="/signUp" element={<SignUp/>}/>
-        <Route path="/sensors" element={<Sensors/>}/>
+        <Route path="/umidity" element={<PrivateRoute><Umidity/></PrivateRoute>}/>
+        <Route path="/temperature" element={<PrivateRoute><Temperature/></PrivateRoute>}/>
+        <Route path="/luminosity" element={<PrivateRoute><Luminosity/></PrivateRoute>}/>
+        <Route path="/counter" element={<PrivateRoute><Counter/></PrivateRoute>}/>
       </Routes>
     </Router>
   );

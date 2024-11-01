@@ -85,13 +85,13 @@ const SignUp = () => {
                             onChange={(e) => setPassword(e.target.value)}
                         />
 
-                        <button type="submit" className="outline-none bg-transparent text-[#fff] border-[2px] border-[#fff] w-[100px] h-8 text-base font-poppins">SIGN UP</button>
+                        <Link to="/login"><button type="submit" className="outline-none bg-transparent text-[#fff] border-[2px] border-[#fff] w-[100px] h-8 text-base font-poppins">SIGN UP</button></Link>
                         {error && <p className="ml-20 mt-3 text-[#D9FFF5] text-base w-[150px] font-poppins">{error}</p>}
                     </div>
                 </form>
 
                 <div className="mt-4">
-                    <Link to="/">
+                    <Link to="/login">
                         <button className="outline-none bg-[#6B8F71] border-[2px] border-[#6B8F71] w-[150px] h-8 text-base font-semibold text-[#fff]">
                             SIGN ON
                         </button>
