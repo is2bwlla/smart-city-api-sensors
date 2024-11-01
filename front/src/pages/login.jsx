@@ -1,10 +1,11 @@
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import Header from "../components/header";
 
 const Login = () => {
     const [username, setUsername] = useState('');
-    const [password, setPassword] = useState(''); 
+    const [password, setPassword] = useState('');
     const [error, setError] = useState('');
     const navigate = useNavigate();
     const location = useLocation();
@@ -23,22 +24,17 @@ const Login = () => {
         }
 
         try {
-            console.log("Formulário de login bem sucedido.");
-
             const tokenResponse = await axios.post("http://127.0.0.1:8000/api/token/", {
                 username: username,
                 password: password
             });
 
-            const token = tokenResponse.data.access; 
-            localStorage.setItem("token", token); 
-            console.log("Token recebido: ", token);
-
+            const token = tokenResponse.data.access;
+            localStorage.setItem("token", token);
             alert("Login bem sucedido.");
 
             const from = location.state?.from || "/";
             navigate(from);
-
         } catch (err) {
             console.error("Erro ao fazer login:", err);
             setError("Erro ao fazer login. Verifique suas credenciais.");
@@ -46,42 +42,50 @@ const Login = () => {
     };
 
     return (
-        <div className="flex justify-center items-center mt-[250px] h-auto flex-col font-poppins">
-            <h1 className="text-2xl font-semibold mb-3">Login on SENAI Sensors</h1>
+        <>
+            <Header />
 
-            <form onSubmit={handleSubmit}>
-                <div className="bg-[#6B8F71] p-5 text-[#fff] flex flex-col rounded-xl font-poppins">
-                    <h3 className="text-base mb-2 font-poppins">USER:</h3>
-                    <input 
-                        className="outline-none border-[#fff] rounded-sm mb-3 w-[300px] h-8 font-poppins p-2 text-[#000]"
-                        type="text" 
-                        placeholder="Ex: Isabella"
-                        value={username}
-                        onChange={(e) => setUsername(e.target.value)}
-                    />
+            <div className="flex justify-center items-center h-screen bg-gray-100">
+                <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-lg w-80">
+                    <h2 className="text-xl font-semibold mb-4 text-center">Login</h2>
+                    <div className="mb-4">
+                        <label className="block text-sm font-medium text-gray-700 mb-1">Usuário:</label>
+                        <input
+                            className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:border-blue-500"
+                            type="text"
+                            placeholder="Ex: Isabella"
+                            value={username}
+                            onChange={(e) => setUsername(e.target.value)}
+                        />
+                    </div>
 
-                    <h3 className="text-base mb-2 font-poppins">PASSWORD:</h3>
-                    <input 
-                        className="outline-none border-[#fff] rounded-sm mb-3 w-[300px] h-8 font-poppins p-2 text-[#000]"
-                        type="password" 
-                        placeholder="Enter your password"
-                        value={password}
-                        onChange={(e) => setPassword(e.target.value)}
-                    />
+                    <div className="mb-4">
+                        <label className="block text-sm font-medium text-gray-700 mb-1">Senha:</label>
+                        <input
+                            className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:border-blue-500"
+                            type="password"
+                            placeholder="Digite sua senha"
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}
+                        />
+                    </div>
 
-                    <button type="submit" className="outline-none bg-transparent text-[#fff] border-[2px] border-[#fff] w-[100px] h-8 text-base font-poppins">SIGN ON</button>
-                    {error && <p className="ml-20 mt-3 text-[#D9FFF5] text-base w-[150px] font-poppins">{error}</p>}
-                </div>
-            </form>
+                    {error && <p className="text-red-500 text-sm mb-2">{error}</p>}
 
-            <div className="mt-4">
-                <Link to="/signUp">
-                    <button className="outline-none bg-[#6B8F71] border-[2px] border-[#6B8F71] w-[150px] h-8 text-base font-semibold text-[#fff]">
-                        SIGN UP
+                    <button type="submit" className="w-full bg-blue-500 text-white rounded-md p-2 hover:bg-blue-600 transition duration-200">
+                        Entrar
                     </button>
-                </Link>
+
+                    <div className="mt-4 text-center">
+                        <Link to="/signUp">
+                            <button className="bg-gray-300 text-gray-700 rounded-md p-2 w-full hover:bg-gray-400 transition duration-200">
+                                Criar Conta
+                            </button>
+                        </Link>
+                    </div>
+                </form>
             </div>
-        </div>
+        </>
     );
 }
 

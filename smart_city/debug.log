@@ -2496,3 +2496,68 @@ INFO 2024-11-01 10:39:18,414 autoreload C:\Users\47955124855\Desktop\smart-city-
 INFO 2024-11-01 10:39:19,349 autoreload Watching for file changes with StatReloader
 INFO 2024-11-01 10:39:36,962 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\views.py changed, reloading.
 INFO 2024-11-01 10:39:37,900 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 13:38:48,383 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-01 14:01:10,187 log Not Found: /favicon.ico
+INFO 2024-11-01 14:25:38,257 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:25:39,261 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:25:43,307 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:25:44,271 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:25:47,813 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:25:48,755 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:25:50,790 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:25:51,873 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:25:56,843 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:25:57,813 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:25:59,744 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:26:00,746 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:26:02,824 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:26:03,874 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:26:05,890 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:26:06,827 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:26:11,892 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:26:12,895 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:26:15,077 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:26:16,047 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:26:19,554 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:26:20,534 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:26:23,980 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:26:25,001 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:26:28,458 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:26:29,473 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:26:31,522 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:26:32,482 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:26:34,545 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:26:35,742 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:27:22,522 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:27:23,462 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:28:54,504 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:29:09,922 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:29:10,867 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:29:17,451 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:29:18,440 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:30:22,764 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:30:23,782 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:30:45,496 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:30:53,491 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:30:54,565 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:30:56,664 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:30:57,643 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:31:01,338 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:31:02,329 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:31:04,288 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:31:05,392 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:31:07,411 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:31:08,408 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:31:10,447 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:31:11,455 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:31:13,527 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:31:14,508 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:31:40,536 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:31:41,639 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:36:15,050 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:36:16,055 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:37:35,643 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:39:32,058 autoreload C:\Users\ct67ca\Contacts\Desktop\smart-city-api-sensors\smart_city\app_smart\api\serializers.py changed, reloading.
+INFO 2024-11-01 14:39:33,033 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:39:38,179 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 14:41:34,498 autoreload Watching for file changes with StatReloader

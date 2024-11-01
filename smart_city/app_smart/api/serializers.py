@@ -1,10 +1,10 @@
 from django.contrib.auth.models import User
-from rest_framework.serializers import ModelSerializer, CharField, FileField
+from rest_framework import serializers
 from django.contrib.auth.hashers import make_password
 from app_smart.models import Sensor, TemperaturaData, UmidadeData, LuminosidadeData, ContadorData
 
-class UserSerializer(ModelSerializer):
-    password = CharField(write_only=True)
+class UserSerializer(serializers.ModelSerializer):
+    password = serializers.CharField(write_only=True)
     
     def create(self, validated_data):
         # Serve para criptografar a senha antes de salvar o usuário
@@ -16,7 +16,7 @@ class UserSerializer(ModelSerializer):
         fields = ['id', 'username', 'email', 'password']
         extra_kwargs = {'password': {'write_only': True}}
         
-class SensorSerializer(ModelSerializer):
+class SensorSerializer(serializers.ModelSerializer):
     class Meta: 
         model = Sensor
         fields = '__all__'              # Isso serializa todos os campos do modelo sensor
@@ -24,22 +24,30 @@ class SensorSerializer(ModelSerializer):
 # class CSVUploadSerializer(ModelSerializer):
 #     file = FileField()
     
-class TemperaturaDataSerializer(ModelSerializer):
+class TemperaturaDataSerializer(serializers.ModelSerializer):
+    sensor_id = serializers.PrimaryKeyRelatedField(source='sensor', read_only=True)
+
     class Meta:
         model = TemperaturaData
         fields = '__all__'
         
-class UmidadeDataSerializer(ModelSerializer):
+class UmidadeDataSerializer(serializers.ModelSerializer):
+    sensor_id = serializers.PrimaryKeyRelatedField(source='sensor', read_only=True)
+    
     class Meta:
         model = UmidadeData
         fields = '__all__'
 
-class LuminosidadeDataSerializer(ModelSerializer):
+class LuminosidadeDataSerializer(serializers.ModelSerializer):
+    sensor_id = serializers.PrimaryKeyRelatedField(source='sensor', read_only=True)
+
     class Meta:
         model = LuminosidadeData
         fields = '__all__'
 
-class ContadorDataSerializer(ModelSerializer):
+class ContadorDataSerializer(serializers.ModelSerializer):
+    sensor_id = serializers.PrimaryKeyRelatedField(source='sensor', read_only=True)
+
     class Meta:
         model = ContadorData
         fields = '__all__'

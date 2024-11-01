@@ -7,7 +7,7 @@ import SignUp from "./pages/signup";
 import './input.css';
 import Umidity from "./pages/umidity";
 import PrivateRoute from "./components/privateRoute";
-import Temperature from "./pages/temperature";
+import TemperatureTable from "./pages/temperature";
 import Luminosity from "./pages/luminosity";
 import Counter from "./pages/counter";
 
@@ -23,7 +23,7 @@ function App() {
         <Route path="/login" element={<Login/>}/>
         <Route path="/signUp" element={<SignUp/>}/>
         <Route path="/umidity" element={<PrivateRoute><Umidity/></PrivateRoute>}/>
-        <Route path="/temperature" element={<PrivateRoute><Temperature/></PrivateRoute>}/>
+        <Route path="/temperature" element={<PrivateRoute><TemperatureTable/></PrivateRoute>}/>
         <Route path="/luminosity" element={<PrivateRoute><Luminosity/></PrivateRoute>}/>
         <Route path="/counter" element={<PrivateRoute><Counter/></PrivateRoute>}/>
       </Routes>

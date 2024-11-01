@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/header";
 import Navbar from "../components/navbar";
+import Umidade from "../assets/sensor-umidity.jfif" // Importa a imagem
 
 const Home= () => {
     return (
@@ -11,7 +12,7 @@ const Home= () => {
                     <h2 className="text-xl mr-6">Sensores</h2>
                 </div>
                 <Navbar/>
-            </div>
+            </div>            
         </>
     )
 }
