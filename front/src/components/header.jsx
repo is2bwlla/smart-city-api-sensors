@@ -12,7 +12,7 @@ const Header = () => {
     };
 
     return (
-        <header className='flex justify-between items-center p-3'>
+        <header className='flex justify-between items-center p-3 fixed z-10 w-full bg-[#fff]'>
             <h1 className='text-red-600 text-4xl font-bold font-poppins ml-3'>SENAI</h1>
 
             <nav>
