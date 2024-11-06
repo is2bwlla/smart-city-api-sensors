@@ -2562,3 +2562,5 @@ INFO 2024-11-01 14:39:33,033 autoreload Watching for file changes with StatReloa
 INFO 2024-11-01 14:39:38,179 autoreload Watching for file changes with StatReloader
 INFO 2024-11-01 14:41:34,498 autoreload Watching for file changes with StatReloader
 INFO 2024-11-05 09:53:35,710 autoreload Watching for file changes with StatReloader
+INFO 2024-11-06 07:42:55,291 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-06 10:07:22,342 log Unauthorized: /api/token/

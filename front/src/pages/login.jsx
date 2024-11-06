@@ -2,6 +2,7 @@ import { Link, useNavigate, useLocation } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Header from "../components/header";
+import Footer from "../components/footer";
 
 const Login = () => {
     const [username, setUsername] = useState('');

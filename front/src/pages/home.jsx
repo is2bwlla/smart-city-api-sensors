@@ -13,7 +13,6 @@ const Home= () => {
                     <h2 className="text-2xl mr-6">Smart-city</h2>
                 </div>
                 <Navbar/>
-
                 <Footer/>
             </div>           
         </>

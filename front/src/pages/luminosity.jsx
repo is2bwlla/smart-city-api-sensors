@@ -1,6 +1,7 @@
 import Header from "../components/header";
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
+import Footer from "../components/footer";
 
 const Luminosity = () => {
     const [luminosityData, setLuminosityData] = useState([]);
@@ -32,7 +33,7 @@ const Luminosity = () => {
             <Header/>
 
             <div className="flex justify-center p-4">
-                <table className="min-w-full bg-white border border-gray-200 rounded-lg shadow-lg">
+                <table className="min-w-full bg-white border border-gray-200 rounded-lg shadow-lg mt-[80px]">
                     <thead className="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
                         <tr>
                             <th className="py-3 px-6 text-left">ID</th>
@@ -55,6 +56,7 @@ const Luminosity = () => {
                 </table>
             </div>
             
+            <Footer/>
         </>
     );
 };
