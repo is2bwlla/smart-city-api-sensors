@@ -2,21 +2,27 @@ import React from "react";
 import Header from "../components/header";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-import Umidade from "../assets/sensor-umidity.jfif" // Importa a imagem
+import Content from "../components/content";
 
-const Home= () => {
+const Home = () => {
     return (
         <>
-            <Header/>
+            <Header />
             <div className="w-full flex flex-col">
-                <div className="flex w-[100%] bg-[#E4E4E5] justify-center p-4 pt-[80px]">
-                    <h2 className="text-2xl mr-6">Smart-city</h2>
+                <div className="w-full bg-[#E4E4E5] flex justify-center p-4 pt-[80px]">
+                    <h2 className="text-2xl mr-6">Smart-city API Sensors</h2>
                 </div>
-                <Navbar/>
-                <Footer/>
-            </div>           
+                <div className="grid grid-cols-[auto,1fr] w-full">
+                    <Navbar />
+                    <div className="p-10">
+                        <Content />
+                    </div>
+                </div>
+            </div>
+            <Footer/>
         </>
-    )
-}
+    );
+};
+
 
 export default Home;

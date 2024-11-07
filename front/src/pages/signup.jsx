@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
 import Header from "../components/header";
 
@@ -8,36 +8,48 @@ const SignUp = () => {
     const [password, setPassword] = useState("");
     const [email, setEmail] = useState("");
     const [error, setError] = useState("");
+    const navigate = useNavigate();
+    const location = useLocation();
+
+    useEffect(() => {
+        localStorage.removeItem("token");
+    }, []);
 
     const handleSubmit = async (event) => {
         event.preventDefault();
 
+        setError('');
+
+        if (!username || !password) {
+            alert("Por favor, preencha todos os campos.");
+            return;
+        }
+
         try {
             console.log("Formulário submetido.");
-
-            const tokenResponse = await axios.post("http://127.0.0.1:8000/api/token/", {
-                username: 'isabella',
-                password: 'lanadelrey'
-            });
-            console.log("Token recebido.");
-            const token = tokenResponse.data.access;
 
             const response = await axios.post("http://127.0.0.1:8000/api/create_user/", {
                 username: username,
                 email: email,
                 password: password
-            }, {
-                headers: {
-                    Authorization: `Bearer ${token}`,
-                    'Content-Type': 'application/json'
-                },
             });
+
+            const tokenResponse = await axios.post("http://127.0.0.1:8000/api/token/", {
+                username: username,
+                password: password
+            });
+
+            const token = tokenResponse.data.access;
+            localStorage.setItem("token", token);
 
             alert("Usuário cadastrado com sucesso!");
             setUsername("");
             setEmail("");
             setPassword("");
             setError("");
+
+            const from = location.state?.from || "/";
+            navigate(from);
 
         } catch (error) {
             console.error("Erro:", error);
@@ -54,6 +66,7 @@ const SignUp = () => {
     return (
         <>
             <Header/>
+
             <div className="flex justify-center items-center h-screen bg-gray-100">
                 <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-lg w-80">
                     <h2 className="text-xl font-semibold mb-4 text-center">Cadastro</h2>

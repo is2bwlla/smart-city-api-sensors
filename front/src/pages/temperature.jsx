@@ -2,6 +2,10 @@ import Header from "../components/header";
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
 import Footer from "../components/footer";
+import { Line } from 'react-chartjs-2';
+import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
+
+ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
 const TemperatureTable = () => {
     const [temperatureData, setTemperatureData] = useState([]);
@@ -28,12 +32,31 @@ const TemperatureTable = () => {
         return <p>Loading...</p>
     }
 
+    const chartData = {
+        labels: temperatureData.map(data => new Date(data.timestamp).toLocaleDateString()),
+        datasets: [
+            {
+                label: 'Valor de Temperatura',
+                data: temperatureData.map(data => data.valor.toFixed(1)),
+                borderColor: 'rgba(75, 192, 192, 1)',
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                borderWidth: 2,
+            },
+        ],
+    };
+
     return (
         <>
             <Header/>
 
             <div className="flex justify-center p-4">
-                <table className="min-w-full bg-white border border-gray-200 rounded-lg shadow-lg mt-[80px]">
+                <div className="w-full max-w-4xl mt-20">
+                    <Line data={chartData} options={{responsive: true}} />
+                </div>
+            </div>
+
+            <div className="flex justify-center p-4">
+                <table className="w-[50%] bg-white border border-gray-200 rounded-lg shadow-lg mt-[80px]">
                     <thead className="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
                         <tr>
                             <th className="py-3 px-6 text-left">ID</th>
@@ -47,7 +70,7 @@ const TemperatureTable = () => {
                         {temperatureData.map(data => (
                             <tr key={data.id} className="border-b border-gray-200 hover:bg-gray-100">
                                 <td className="py-3 px-6">{data.id}</td>
-                                <td className="py-3 px-6">{data.valor}</td>
+                                <td className="py-3 px-6">{data.valor.toFixed(1)}</td>
                                 <td className="py-3 px-6">{data.sensor_id}</td>
                                 <td className="py-3 px-6">{new Date(data.timestamp).toLocaleString()}</td>
                             </tr>

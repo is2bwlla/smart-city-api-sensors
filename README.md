@@ -107,3 +107,9 @@ Demais arquivos de migração (0002*\*, 0003*\*, etc.):
 
 **contador_data.csv**:
     Arquivo CSV que armazena dados que podem ser utilizados para populamento do banco de dados ou para análise.
+
+
+-- PRECISA FAZER:
+    . subir dados manualmente nas tabelas
+    . Subir o back no pythonanywhere (estudar)
+    . Subir o front no vercel/netlify (estudar)

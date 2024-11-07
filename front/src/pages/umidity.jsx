@@ -2,6 +2,10 @@ import Header from "../components/header";
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
 import Footer from "../components/footer";
+import { Line } from 'react-chartjs-2'; 
+import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js'; 
+
+ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
 const Umidity = () => {
     const [umidityData, setUmidityData] = useState([]);
@@ -28,12 +32,31 @@ const Umidity = () => {
         return <p>Loading...</p>
     }
 
+    const chartData = {
+        labels: umidityData.map(data => new Date(data.timestamp).toLocaleDateString()),
+        datasets: [
+            {
+                label: 'Valor de Umidade',
+                data: umidityData.map(data => data.valor),
+                borderColor: 'rgba(75, 192, 192, 1)',
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                borderWidth: 2,
+            },
+        ],
+    };
+
     return (
         <>
             <Header/>
 
             <div className="flex justify-center p-4">
-                <table className="min-w-full bg-white border border-gray-200 rounded-lg shadow-lg mt-[80px]">
+                <div className="w-full max-w-4xl mt-20">
+                    <Line data={chartData} options={{responsive: true}}/>
+                </div>
+            </div>
+
+            <div className="flex justify-center p-4">
+                <table className="w-[50%] bg-white border border-gray-200 rounded-lg shadow-lg mt-[80px]">
                     <thead className="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
                         <tr>
                             <th className="py-3 px-6 text-left">ID</th>
