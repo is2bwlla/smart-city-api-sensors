@@ -110,6 +110,6 @@ Demais arquivos de migração (0002*\*, 0003*\*, etc.):
 
 
 -- PRECISA FAZER:
-    . subir dados manualmente nas tabelas
+    . subir dados manualmente nas tabelas (CRUD)
     . Subir o back no pythonanywhere (estudar)
     . Subir o front no vercel/netlify (estudar)

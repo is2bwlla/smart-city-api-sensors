@@ -1,20 +1,14 @@
-// import React, {useState} from "react";
+import React, {useState} from "react";
 
-// const Forms = () => {
-//     const [formData, setFormData] = useState({
-//         ID: '',
-//         Valor: '',
-//         Sensor_id: '',
-//         Timestamp: ''
-//     });
+const Forms = () => {
+    const [id, setId] = useState("");
+    const [valor, setValor] = useState("");
+    const [sensor_id, setSensor_id] = useState("");
+    const [timestamp, setTimestamp] = useState("");
+ 
+    return (
 
-//     const handleChange = (e) => {
-//         const { }
-//     }
+    );
+}
 
-//     return (
-
-//     )
-// }
-
-// export default Forms;
+export default Forms;
