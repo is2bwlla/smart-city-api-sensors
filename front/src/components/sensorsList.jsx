@@ -1,1 +1,0 @@
-//  Aqui vai ser como a div que recebe vários cards e mostra eles na tela como se listasse eles

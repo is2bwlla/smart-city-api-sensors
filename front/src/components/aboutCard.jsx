@@ -4,6 +4,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { SiReact, SiDjango, SiTailwindcss } from 'react-icons/si'; 
 import Isabella from '../assets/profile-github.png';
 import Lindomar from '../assets/lindomar.jfif';
+import Fernanda from '../assets/fernanda.png';
 
 const AboutCard = ({ item, onClose }) => {
   const renderContent = () => {
@@ -25,14 +26,32 @@ const AboutCard = ({ item, onClose }) => {
       case 'Teacher':
         return (
           <>
-            <div className='flex flex-col w-[200px] items-center'>
-                <img src={Lindomar} alt="Isabella Souza" className="w-[160px] h-auto rounded-full mb-4 mt-4" />
-                <p>Lindomar Batistão</p>
-                <div className="flex space-x-4 mt-2">
-                    <a href="https://www.linkedin.com/in/lindomarbatistao/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="text-blue-600 hover:text-blue-800" size={24}/></a>
-                    <a href="https://github.com/lindomarbatistao" target="_blank" rel="noopener noreferrer"><FaGithub className="text-gray-800 hover:text-black" size={24}/></a>
+            <div className='flex'>
+              <div className='border-2 p-3'>
+                <div className='flex flex-col w-[200px] items-center'>
+                    <img src={Lindomar} alt="Lindomar" className="w-[160px] h-auto rounded-full mb-4 mt-4" />
+                    <p>Lindomar Batistão</p>
+                    <p>Programação Backend</p>
+                    <div className="flex space-x-4 mt-2">
+                        <a href="https://www.linkedin.com/in/lindomarbatistao/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="text-blue-600 hover:text-blue-800" size={24}/></a>
+                        <a href="https://github.com/lindomarbatistao" target="_blank" rel="noopener noreferrer"><FaGithub className="text-gray-800 hover:text-black" size={24}/></a>
+                    </div>
                 </div>
+              </div>
+
+              <div className='ml-8 border-2 p-3'>
+                <div className='flex flex-col w-[200px] items-center'>
+                    <img src={Fernanda} alt="Fernanda" className="w-[160px] h-auto rounded-full mb-4 mt-4" />
+                    <p>Fernanda Fretes</p>
+                    <p>Programação Frontend</p>
+                    <div className="flex space-x-4 mt-2">
+                        <a href="https://www.linkedin.com/in/fernanda-fretes-08762927/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="text-blue-600 hover:text-blue-800" size={24}/></a>
+                        <a href="https://github.com/FernandaFretes" target="_blank" rel="noopener noreferrer"><FaGithub className="text-gray-800 hover:text-black" size={24}/></a>
+                    </div>
+                </div>
+              </div>
             </div>
+            
           </>
         );
 

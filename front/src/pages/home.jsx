@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/header";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-import Content from "../components/content";
+import Content from "./homeContent";
 
 const Home = () => {
     return (

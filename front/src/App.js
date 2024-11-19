@@ -1,12 +1,12 @@
 import React from "react";
 import "./styles/styles.css";
 import "./styles/App.css";
-import Login from "./pages/login";
+import Login from "./components/login";
 import Home from "./pages/home";
-import SignUp from "./pages/signup";
+import SignUp from "./components/signup";
 import './input.css';
 import Umidity from "./pages/umidity";
-import PrivateRoute from "./components/privateRoute";
+import PrivateRoute from "./routes/privateRoute";
 import TemperatureTable from "./pages/temperature";
 import Luminosity from "./pages/luminosity";
 import Counter from "./pages/counter";
