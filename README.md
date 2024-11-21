@@ -1,55 +1,56 @@
 # PROJETO INTEGRADOR: Smart_city
 
-## API em Django + Front em React (vou fazer após terminar a documentação.)
+### API em Django + Front em React.
 
-## PASTAS:
+### PASTAS:
 
 Pasta: **smart_city**
     A pasta smart_city contém as configurações principais e a estrutura do projeto Django.
 
 
-Conteúdo:
-    **app_smart/**:
+### Conteúdo:
+    
+1. **app_smart/**:
         Contém os aplicativos principais da aplicação.
 
 
-**pycache/**:
+2. **pycache/**:
     Diretório gerado automaticamente que armazena os arquivos .pyc compilados para otimização de desempenho.
 
 
-**admin.py**:
+3. **admin.py**:
     Configura o painel de administração do Django, permitindo a manipulação dos dados diretamente pelo painel do administrador.
 
 
-**apps.py**:
+4. **apps.py**:
     Configurações específicas do aplicativo, incluindo nome e configurações iniciais.
 
 
-**forms.py**:
+5. **forms.py**:
     Define os formulários utilizados na aplicação, facilitando a manipulação de dados inseridos pelos usuários.
 
 
-**models.py**:
+6. **models.py**:
     Define os modelos de dados da aplicação, representando as tabelas do banco de dados.
 
 
-**tests.py**:
+7. **tests.py**:
     Contém testes automatizados para garantir que as funcionalidades da aplicação funcionam como esperado.
 
 
-**urls.py**:
+8. **urls.py**:
 Define as rotas da aplicação e mapeia as URLs para as respectivas views.
 
 
-**views.py**:
+9. **views.py**:
     Contém as views que controlam a lógica de apresentação, processando requisições e retornando respostas adequadas.
 
 
-**api/**:
+10. **api/**:
     Contém os componentes da API da aplicação.
 
 
-**pycache/**:
+11. **pycache/**:
     Diretório gerado automaticamente que armazena os arquivos .pyc compilados.
 
 
