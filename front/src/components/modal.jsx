@@ -16,6 +16,7 @@ const Modal = ({ onClose }) => {
         }
 
         try {
+            // São os tipos de dados que eu espero receber em cada um dos campos de sensor
             const sensorData = {
                 tipo: sensorType,
                 latitude: parseFloat(latitude),
@@ -28,8 +29,14 @@ const Modal = ({ onClose }) => {
 
             console.log("Sensor criado com sucesso:", sensorResponse.data);
 
+            // como eu não defino o ID do sensor, ele vai ser definido automaticamente
             const sensorId = sensorResponse.data.id;
 
+            // Aqui eu to fazendo como se fosse um filtro porque ao mesmo tempo que eu insiro na tabela sensores, que é a tabela geral
+            // eu quero que seja inserido direto na tabela referente ao sensor que eu to adicionando dados
+            // Eu filtro pelo sensorType e em uma cadeia de condicionais eu dou a endpoint necessária para a respectiva tabela que eu
+            // to usando no momento
+            
             if (sensorType === "Temperatura") {
                 const temperaturaData = {
                     sensor: sensorId,
