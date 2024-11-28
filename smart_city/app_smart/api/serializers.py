@@ -5,6 +5,7 @@ from app_smart.models import Sensor, TemperaturaData, UmidadeData, LuminosidadeD
 
 class UserSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True)
+    # Aqui eu defino que a senha não pode ser em branco
     
     def create(self, validated_data):
         # Serve para criptografar a senha antes de salvar o usuário
@@ -20,9 +21,6 @@ class SensorSerializer(serializers.ModelSerializer):
     class Meta: 
         model = Sensor
         fields = '__all__'              # Isso serializa todos os campos do modelo sensor
-        
-# class CSVUploadSerializer(ModelSerializer):
-#     file = FileField()
     
 class TemperaturaDataSerializer(serializers.ModelSerializer):
     sensor_id = serializers.PrimaryKeyRelatedField(source='sensor', read_only=True)
