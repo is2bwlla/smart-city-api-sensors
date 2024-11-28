@@ -1,6 +1,13 @@
 from django.db import models
 
-# Tabela para armazenar os dados dos sensores no geral
+'''
+    O models.py é o que define a minha tabela no banco de dados, os campos que vãao ter e respectivamente o que esses campos esperam.
+
+    ex: tipo = models.CharField(max_lenght=50, choices=SENSOR_CHOICES)
+    - Aqui eu to definindo que meu campo tipo recebe um CharField, é como se eu definisse ele como uma string, essa string
+    recebe até no máximo 50 caracteres e deve ser uma das escolhas que meu SENSOR_CHOICES oferece
+'''
+
 class Sensor(models.Model):
     SENSOR_CHOICES = [
         ('Temperatura', 'Temperatura'),                 
