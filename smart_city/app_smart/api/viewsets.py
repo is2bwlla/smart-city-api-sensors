@@ -15,6 +15,7 @@ class CreateUserAPIViewSet(CreateAPIView):
     queryset = User.objects.all()
     serializer_class = serializers.UserSerializer
     # permission_classes = [IsAdminUser]
+    # Eu comentei o "permission_classes" porque com ele não conseguia acessar os dados da api pelo backend porque ele exigia autenticação
     
     def post(self, request, *args, **kwargs):
         return self.create(request, *args, **kwargs)
