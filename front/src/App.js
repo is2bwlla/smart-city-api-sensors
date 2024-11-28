@@ -13,6 +13,7 @@ import Counter from "./pages/counter";
 
 // IMPORTAÇÕES DE ROUTER:
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import SensorTable from "./pages/sensor";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/temperature" element={<PrivateRoute><TemperatureTable/></PrivateRoute>}/>
         <Route path="/luminosity" element={<PrivateRoute><Luminosity/></PrivateRoute>}/>
         <Route path="/counter" element={<PrivateRoute><Counter/></PrivateRoute>}/>
+        <Route path="/sensor" element={<PrivateRoute><SensorTable/></PrivateRoute>}/>
       </Routes>
     </Router>
   );

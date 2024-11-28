@@ -2569,3 +2569,23 @@ INFO 2024-11-07 10:26:51,510 autoreload Watching for file changes with StatReloa
 WARNING 2024-11-07 10:26:54,041 log Not Found: /favicon.ico
 INFO 2024-11-08 10:41:23,736 autoreload Watching for file changes with StatReloader
 INFO 2024-11-19 10:51:48,387 autoreload Watching for file changes with StatReloader
+INFO 2024-11-28 08:25:06,191 autoreload Watching for file changes with StatReloader
+INFO 2024-11-28 08:25:12,541 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-28 09:12:15,834 log Bad Request: /api/sensors/
+INFO 2024-11-28 09:12:44,997 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-28 09:12:56,679 log Bad Request: /api/sensors/
+WARNING 2024-11-28 09:13:02,052 log Bad Request: /api/sensors/
+WARNING 2024-11-28 09:14:03,684 log Not Found: /favicon.ico
+WARNING 2024-11-28 09:16:59,747 log Bad Request: /api/sensors/
+INFO 2024-11-28 10:05:44,572 autoreload C:\Users\47955124855\Desktop\smart-city-api-sensors\smart_city\app_smart\urls.py changed, reloading.
+INFO 2024-11-28 10:05:48,021 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-28 10:34:32,194 log Bad Request: /api/temperatura/
+WARNING 2024-11-28 10:38:13,748 log Bad Request: /api/temperatura/
+WARNING 2024-11-28 10:39:48,346 log Bad Request: /api/temperatura/
+WARNING 2024-11-28 10:40:06,268 log Bad Request: /api/temperatura/
+WARNING 2024-11-28 10:42:01,495 log Bad Request: /api/temperatura/
+WARNING 2024-11-28 10:42:08,543 log Bad Request: /api/temperatura/
+WARNING 2024-11-28 10:43:10,274 log Bad Request: /api/temperatura/
+WARNING 2024-11-28 10:43:43,635 log Bad Request: /api/temperatura/
+WARNING 2024-11-28 10:49:46,895 log Not Found: /api/sensor/
+WARNING 2024-11-28 10:49:49,557 log Not Found: /api/sensor/

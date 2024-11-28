@@ -11,7 +11,7 @@ from app_smart.api.filters import (
     ContadorFilterView 
 )
 
-router = DefaultRouter()
+router = DefaultRouter() 
 router.register(r'sensors', SensorViewSet)
 router.register(f'temperatura', TemperaturaDataViewSet)
 router.register(r'umidade', UmidadeDataViewSet)
