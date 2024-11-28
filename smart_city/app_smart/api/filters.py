@@ -7,6 +7,8 @@ from rest_framework import status
 from rest_framework.views import APIView
 from django.db.models import Q
 
+# Eu to literalmente criando filtros que irão servir como uma peneira, buscando somente as informações que eu informar nesses filtros
+
 class SensorFilter(django_filters.FilterSet):
     responsavel = django_filters.CharFilter(field_name='responsavel', lookup_expr='icontains')
     status_operacional = django_filters.CharFilter(field_name='status_operacional', lookup_expr='exact')
