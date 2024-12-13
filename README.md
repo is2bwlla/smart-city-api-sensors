@@ -9,7 +9,7 @@
 ![Static Badge](https://img.shields.io/badge/Frontend-React-%2361DAFB?style=for-the-badge&logo=React&logoColor=%2361DAFB&label=Frontend&labelColor=black&color=%2361DAFB)
 
 ## Django Rest Framework:
-
+codesnap = ext4ensão de print no vscode
 ### Comandos e instalações do Backend:
 
 ### Meu requirements.txt:
